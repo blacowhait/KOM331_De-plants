@@ -1,5 +1,5 @@
-# KOM331_De-plants
-Project KOM331-RPL Kelompok 13
+# De-plants
+Sebuah aplikasi berbasis web yang bertujuan sebagai wadah untuk komunitas para pecinta tumbuhan untuk berbagi ilmu dan juga e-commerce untuk tumbuhan 
 
 ## Nama kelompok dan anggota :
 <table>
