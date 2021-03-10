@@ -39,7 +39,7 @@ Sebuah aplikasi berbasis web yang bertujuan sebagai wadah untuk komunitas para p
     </tbody>
 </table>
 
-#Tujuan
+# Tujuan
 1. Sebagai wadah antar penggemar tanaman hias
 2. Mempermudah penggemar tanaman hias untuk saling berkoneksi dan bertukar informasi
 3. Memungkinkan untuk berjual beli tanaman hias antar penggemar
