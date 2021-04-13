@@ -1,7 +1,12 @@
 # De-plants
 Sebuah aplikasi berbasis web yang bertujuan sebagai wadah untuk komunitas para pecinta tumbuhan untuk berbagi ilmu dan juga e-commerce untuk tumbuhan 
 
-## Nama kelompok dan anggota :
+# Daftar Isi
+- [Anggota Kelompok 13](#Anggota-Kelompok-13)
+- [Tujuan](#Tujuan)
+- [User Story](#User-Story)
+
+## Anggota Kelompok 13 :
 <table>
     <thead>
         <tr>
