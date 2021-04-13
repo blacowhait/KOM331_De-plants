@@ -45,6 +45,10 @@ Sebuah aplikasi berbasis web yang bertujuan sebagai wadah untuk komunitas para p
 3. Memungkinkan untuk berjual beli tanaman hias antar penggemar
 
 # User Story
+- Sebagai seorang pecinta tanaman, agar dapat bertukar informasi dengan dengan pecinta tanaman yang lain, saya ingin ada wadah untuk saling berkomunikasi
 - Sebagai seorang pecinta tanaman, agar dapat bertukar informasi dengan dengan pecinta tanaman yang lain, saya dapat membuat sebuah semacam post.
 - Sebagai seorang pecinta tanaman, agar dapat memilih informasi yang saya inginkan, saya dapat melakukan filter.
-- Sebagai seorang pecinta tanaman, agar dapat melakukan bisnis, saya dapat melakukan jual/beli
+- Sebagai seorang pecinta tanaman, agar dapat melakukan bisnis, saya dapat melakukan jual/beli.
+- Sebagai seorang pecinta tanaman, agar dapat menemukan informasi dengan mudah, saya ingin ada web yang terfokuskan pada tanaman hias dan sebagai tambahan sesama penggemar dapat bertukar pengalaman.
+- Sebagai calon pengguna, agar dapat melakukan aktivitas pada web, saya dapat melakukan registrasi di awal dengan memasukan data diri, alamat email, dan kata sandi.
+- Sebagai pengguna yang telah log out, agar dapat menggunakan web, saya dapat mengetikkan alamat email dan kata sandi saya untuk masuk ke aplikasi.
