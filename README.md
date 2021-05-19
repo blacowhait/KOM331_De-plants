@@ -62,12 +62,13 @@ Sebuah aplikasi berbasis web yang bertujuan sebagai wadah untuk komunitas para p
 # Panduan GitHub
 - install github, Laravel, MySql, Vue CLI.
 - inisiasi repo
-    - git clone https://github.com/blacowhait/KOM331_De-plants.git
-    - cd KOM331_De-plants
+    - git clone https://github.com/blacowhait/KOM331_De-plants.git //download folder github
+    - cd KOM331_De-plants //masuk kedalam folder
+    - git checkout master //masuk ke branch master 
 - pull dari github
-    - git reset --hard
-    - git pull
+    - git reset --hard //masuk ke remote/origin/HEAD
+    - git pull //memperbarui folder github
 - push ke github
-    - git add .
-    - git commit -m "pesan apa gitu"
-    - git push origin master
+    - git add . //add semua file yang ada
+    - git commit -m "pesan apa gitu" //ngasih pesan
+    - git push origin master //upload semua file ke branch master
