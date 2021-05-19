@@ -5,6 +5,7 @@ Sebuah aplikasi berbasis web yang bertujuan sebagai wadah untuk komunitas para p
 - [Anggota Kelompok 13](#Anggota-Kelompok-13)
 - [Tujuan](#Tujuan)
 - [User Story](#User-Story)
+- [Panduan GitHub](#panduan-github)
 
 ## Anggota Kelompok 13 :
 <table>
@@ -57,3 +58,16 @@ Sebuah aplikasi berbasis web yang bertujuan sebagai wadah untuk komunitas para p
 - Sebagai seorang pecinta tanaman, agar dapat menemukan informasi dengan mudah, saya ingin ada web yang terfokuskan pada tanaman hias dan sebagai tambahan sesama penggemar dapat bertukar pengalaman.
 - Sebagai calon pengguna, agar dapat melakukan aktivitas pada web, saya dapat melakukan registrasi di awal dengan memasukan data diri, alamat email, dan kata sandi.
 - Sebagai pengguna yang telah log out, agar dapat menggunakan web, saya dapat mengetikkan alamat email dan kata sandi saya untuk masuk ke aplikasi.
+
+# Panduan GitHub
+- install github, Laravel, MySql, Vue CLI.
+- inisiasi repo
+    - git clone https://github.com/blacowhait/KOM331_De-plants.git
+    - cd KOM331_De-plants
+- pull dari github
+    - git reset --hard
+    - git pull
+- push ke github
+    - git add .
+    - git commit -m "pesan apa gitu"
+    - git push origin master
