@@ -60,6 +60,10 @@ Sebuah aplikasi berbasis web yang bertujuan sebagai wadah untuk komunitas para p
 - Sebagai pengguna yang telah log out, agar dapat menggunakan web, saya dapat mengetikkan alamat email dan kata sandi saya untuk masuk ke aplikasi.
 
 # Panduan GitHub
+- penjelasan folder
+    - Front-end     : berisi code bagian Front-end
+    - Back-end      : berisi code bagian Back-end
+    - Ready-deploy  : berisi code untuk deploy (Front dan Back sudah disatukan)
 - install github, yarn, npm, Laravel, MySql, Vue CLI.
 - inisiasi repo
     - git clone https://github.com/blacowhait/KOM331_De-plants.git //download folder github
