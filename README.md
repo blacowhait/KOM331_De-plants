@@ -156,29 +156,34 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
         <tr>
             <td>1</td>
             <td>Create</td>
-            <td></td>
+            <td>Membuat post</td>
             <td></td>
         </tr>
         <tr>
             <td>2</td>
-            <td></td>
+            <td>Read</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>3</td>
-            <td></td>
+            <td>Update</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>4</td>
-            <td></td>
+            <td>Delete</td>
             <td></td>
             <td></td>
         </tr>
     </tbody>
 </table>
+
+# Hasil Implementasi 
+
+# Project Dokumentation 
+[website saya]: http://software.endy.muhardin.com "Websitenya Endy"
 
 # Panduan GitHub
 - penjelasan folder
