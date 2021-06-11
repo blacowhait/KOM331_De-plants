@@ -45,8 +45,9 @@ Aplikasi berbasis web yang berfokus pada komunitas pecinta tanaman hias sebagai 
     </tbody>
 </table>
 
-#Latar Belakang 
-Meningkatnya animo masyarakat untuk mengoleksi tanaman hias selama covid-19 tidak dibrengi dengann keamanan pada saat melakukan transaksi online. Banyak masyarakat awam yang tertipu saat membeli tanaman hias secara online karena minimnya informasi yang diperoleh. Oleh karena itu, de-plants web dapat menjadi solusi untuk komitas pecinta tanaman untuk berbagi informasi sekaligus merangkul masyarakat awam yang baru memulai hobi mengoleksi tanaman hias. sehingga ketika ingin membeli tanaman hias, mereka memiliki wadah yang aman untuk bertransaksi. 
+# Latar Belakang 
+Meningkatnya animo masyarakat untuk mengoleksi tanaman hias selama covid-19 tidak dibrengi dengann keamanan pada saat melakukan transaksi online. Banyak masyarakat awam yang
+tertipu saat membeli tanaman hias secara online karena minimnya informasi yang diperoleh. Oleh karena itu, de-plants web dapat menjadi solusi untuk komitas pecinta tanaman untuk berbagi informasi sekaligus merangkul masyarakat awam yang baru memulai hobi mengoleksi tanaman hias. sehingga ketika ingin membeli tanaman hias, mereka memiliki wadah yang aman untuk bertransaksi. 
 
 
 # Tujuan
