@@ -46,9 +46,8 @@ Aplikasi berbasis web yang berfokus pada komunitas pecinta tanaman hias sebagai 
 </table>
 
 # Latar Belakang 
-Meningkatnya animo masyarakat untuk mengoleksi tanaman hias selama covid-19 tidak dibrengi dengann keamanan pada saat melakukan transaksi online. Banyak masyarakat awam yang
-tertipu saat membeli tanaman hias secara online karena minimnya informasi yang diperoleh. Oleh karena itu, de-plants web dapat menjadi solusi untuk komitas pecinta tanaman untuk berbagi informasi sekaligus merangkul masyarakat awam yang baru memulai hobi mengoleksi tanaman hias. sehingga ketika ingin membeli tanaman hias, mereka memiliki wadah yang aman untuk bertransaksi. 
-
+Meningkatnya animo masyarakat untuk mengoleksi tanaman hias selama covid-19 tidak dibarengi dengan keamanan saat melakukan transaksi online. Banyak masyarakat awam yang
+tertipu saat membeli tanaman hias secara online karena minimnya informasi yang diperoleh. Oleh karena itu, de-plants web dapat menjadi solusi untuk komunitas pecinta tanaman untuk berbagi informasi sekaligus merangkul masyarakat awam yang baru memulai hobi mengoleksi tanaman hias. Sehingga ketika ingin membeli tanaman hias, mereka memiliki wadah yang aman untuk bertransaksi. 
 
 # Tujuan
 1. Sebagai wadah antar penggemar tanaman hias
@@ -64,6 +63,28 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 - Sebagai calon pengguna, agar dapat melakukan aktivitas pada web, saya dapat melakukan registrasi di awal dengan memasukan data diri, alamat email, dan kata sandi.
 - Sebagai pengguna yang telah log out, agar dapat menggunakan web, saya dapat mengetikkan alamat email dan kata sandi saya untuk masuk ke aplikasi.
 
+# Ruang Lingkup 
+# Perangkat Keras 
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Procsseo</th>
+            <th>Memory</th>
+            <th>Graphic Card</th>
+            <th>Storage</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Grey Syafiq Kusuma</td>
+            <td>G64190017</td>
+            <td>Project Manager + Full-Stack</td>
+        </tr>
+</tbody>
+</table>
 # Panduan GitHub
 - penjelasan folder
     - Front-end     : berisi code bagian Front-end
