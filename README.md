@@ -128,8 +128,7 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 
 # Fungsi Utama 
 1. Login dan sign up 
-Pada fitur ini pengguna dapat mendaftar akun dan masuk ke dalam website de-plant.
-
+Pada fitur ini pengguna dapat mendaftar akun dan masuk ke dalam website de-plant. 
 2. Homepage
 Pengguna dapat melihat halaman depan web de-plants, disana terdapat katalog tanaman hias dan forum yang membahas seputar perawatan tanaman hias
 dan pengalaman pribadi pengguna lain.
