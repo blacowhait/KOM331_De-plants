@@ -1,4 +1,5 @@
 # De-plants
+![lOGO](https://drive.google.com/file/d/1BK9_Y_grS5DrpUbym8f3nP4oAzyIesdh/view?usp=sharing)
 Aplikasi berbasis web yang berfokus pada komunitas pecinta tanaman hias sebagai wadah untuk saling berbagi ilmu dan transaksi jual beli yang aman untuk para pecinta tanaman.
 
 # Daftar Isi
