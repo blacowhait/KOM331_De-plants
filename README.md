@@ -100,16 +100,6 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
         </tr>
         <tr>
             <td>2</td>
-            <td># Perangkat Keras 
-<table>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>Processor</td>
-            <td>AMD Ryzen 5 2500U</td>
-        </tr>
-        <tr>
-            <td>2</td>
             <td>Framework</td>
             <td>Vue js / laravel</td>
         </tr>
