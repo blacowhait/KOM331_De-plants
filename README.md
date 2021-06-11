@@ -142,6 +142,43 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 5. #### Forum/thread
     Pada fitur ini pengguna dapat membuat forum berisi pertanyaan seputar perawatan tanaman hias, pengguna lain dapat membuat post untuk menjawab pertanyaan tersebut. Pengguna       juga dapat memberi informasi terkait perawatan tanaman hias berdasarkan pengalaman pribadi.
 
+# Fungsi CRUD 
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>CRUD</th>
+            <th>Fungsi</th>
+            <th>Fitur</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Create</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 # Panduan GitHub
 - penjelasan folder
