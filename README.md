@@ -89,6 +89,7 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
         </tr>   
     </tbody>
 </table>
+
 # Panduan GitHub
 - penjelasan folder
     - Front-end     : berisi code bagian Front-end
