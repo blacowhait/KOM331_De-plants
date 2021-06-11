@@ -79,11 +79,15 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
         </tr>
         <tr>
             <td>3</td>
-            <td>vGraphic Card</td>
+            <td>Graphic Card</td>
             <td>Nvidia Geforce GTX 1050</td>
         </tr>
-        
-</tbody>
+        <tr>
+            <td>54td>
+            <td>Storage/td>
+            <td>1 TB</td>
+        </tr>   
+    </tbody>
 </table>
 # Panduan GitHub
 - penjelasan folder
