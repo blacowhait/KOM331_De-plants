@@ -64,7 +64,7 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 - Sebagai pengguna yang telah log out, agar dapat menggunakan web, saya dapat mengetikkan alamat email dan kata sandi saya untuk masuk ke aplikasi.
 
 # Ruang Lingkup 
-# Perangkat Keras 
+## Perangkat Keras 
 <table>
     <tbody>
         <tr>
@@ -90,7 +90,7 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
     </tbody>
 </table>
 
-# Perangkat Lunak
+## Perangkat Lunak
 <table>
     <tbody>
         <tr>
@@ -120,7 +120,30 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
         </tr>   
     </tbody>
 </table>
-          
+
+# Hasil dan Pembahasan 
+- ERD adalah model atau rancangan untuk membuat database, untuk memudahkan dalam menggambarkan data yang memiliki hubungan atau relasi dalam bentuk sebuah desain. Berikut adalah ERD untuk website de-plant
+
+- Diagram arsitektur adalah bahasa gambar yang digunakan dalam bidang arsitektur untuk menerangkan konsep, prinsip, anasir, dan komponen, termasuk cara kerja maupun petunjuk penggunaannya. Berikut adalah arsitektur diagram website de-plant 
+
+# Fungsi Utama 
+1. Login dan sign up 
+Pada fitur ini pengguna dapat mendaftar akun dan masuk ke dalam website de-plant.
+
+2. Homepage
+Pengguna dapat melihat halaman depan web de-plants, disana terdapat katalog tanaman hias dan forum yang membahas seputar perawatan tanaman hias
+dan pengalaman pribadi pengguna lain.
+
+3. User Profile 
+Menampilkan informasi singkat pengguna. Informasi yang ditampilkan adalah username, bio singkat, tanggal pengguna membuat akun dam infomasi forum atau post yang pernah dibuat.
+
+4. Marketplace/transacation 
+Fitur ini 
+menampilkan berbagai tanaman hias beserta harga yang ditawarkan. Terdapat deskripsi produk dan review dari beberapa pembeli terkait produk tersebut.
+
+5. Forum/thread
+Pada fitur ini pengguna dapat membuat forum berisi pertanyaan seputar perawatan tanaman hias, pengguna lain dapat membuat post untuk menjawab pertanyaan tersebut. Pengguna juga dapat memberi informasi terkait perawatan tanaman hias berdasarkan pengalaman pribadi.
+
 
 # Panduan GitHub
 - penjelasan folder
