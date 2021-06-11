@@ -127,14 +127,14 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 - Diagram arsitektur adalah bahasa gambar yang digunakan dalam bidang arsitektur untuk menerangkan konsep, prinsip, anasir, dan komponen, termasuk cara kerja maupun petunjuk penggunaannya. Berikut adalah arsitektur diagram website de-plant 
 
 # Fungsi Utama 
-1. ### Login dan sign up 
+1. #### Login dan sign up 
     Pada fitur ini pengguna dapat mendaftar akun dan masuk ke dalam website de-plant. 
-### 2. Homepage
-Pengguna dapat melihat halaman depan web de-plants, disana terdapat katalog tanaman hias dan forum yang membahas seputar perawatan tanaman hias
-dan pengalaman pribadi pengguna lain.
+2. #### Homepage
+    Pengguna dapat melihat halaman depan web de-plants, disana terdapat katalog tanaman hias dan forum yang membahas seputar perawatan tanaman hias
+    dan pengalaman pribadi pengguna lain.
 
-3. User Profile 
-Menampilkan informasi singkat pengguna. Informasi yang ditampilkan adalah username, bio singkat, tanggal pengguna membuat akun dam infomasi forum atau post yang pernah dibuat.
+3. #### User Profile 
+    Menampilkan informasi singkat pengguna. Informasi yang ditampilkan adalah username, bio singkat, tanggal pengguna membuat akun dam infomasi forum atau post yang pernah           dibuat.
 
 4. Marketplace/transacation 
 Fitur ini 
