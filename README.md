@@ -10,7 +10,8 @@ Aplikasi berbasis web yang berfokus pada komunitas pecinta tanaman hias sebagai 
 - [Hasil dan Pembahasan](#Hasil-dan-Pembahasan)
 - [Fungsi Utama](#Fungsi-utama)
 - [Fungsi CRUD](#Fungsi-CRUD)
-- [Hasil Implementasi]
+- [Hasil Implementasi](#Hasil-Implementasi)
+- [Project Dokumentation](#Project-Dokumentation)
 - [Panduan GitHub](#panduan-github)
 
 ## Anggota Kelompok 13 :
@@ -59,15 +60,6 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 1. Sebagai wadah antar penggemar tanaman hias
 2. Mempermudah penggemar tanaman hias untuk saling berkoneksi dan bertukar informasi
 3. Memungkinkan untuk berjual beli tanaman hias antar penggemar
-
-# User Story
-- Sebagai seorang pecinta tanaman, agar dapat bertukar informasi dengan dengan pecinta tanaman yang lain, saya ingin ada wadah untuk saling berkomunikasi
-- Sebagai seorang pecinta tanaman, agar dapat bertukar informasi dengan dengan pecinta tanaman yang lain, saya dapat membuat sebuah semacam post.
-- Sebagai seorang pecinta tanaman, agar dapat memilih informasi yang saya inginkan, saya dapat melakukan filter.
-- Sebagai seorang pecinta tanaman, agar dapat melakukan bisnis, saya dapat melakukan jual/beli.
-- Sebagai seorang pecinta tanaman, agar dapat menemukan informasi dengan mudah, saya ingin ada web yang terfokuskan pada tanaman hias dan sebagai tambahan sesama penggemar dapat bertukar pengalaman.
-- Sebagai calon pengguna, agar dapat melakukan aktivitas pada web, saya dapat melakukan registrasi di awal dengan memasukan data diri, alamat email, dan kata sandi.
-- Sebagai pengguna yang telah log out, agar dapat menggunakan web, saya dapat mengetikkan alamat email dan kata sandi saya untuk masuk ke aplikasi.
 
 # Ruang Lingkup 
 ## Perangkat Keras 
@@ -126,6 +118,15 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
         </tr>   
     </tbody>
 </table>
+
+# User Story
+- Sebagai seorang pecinta tanaman, agar dapat bertukar informasi dengan dengan pecinta tanaman yang lain, saya ingin ada wadah untuk saling berkomunikasi
+- Sebagai seorang pecinta tanaman, agar dapat bertukar informasi dengan dengan pecinta tanaman yang lain, saya dapat membuat sebuah semacam post.
+- Sebagai seorang pecinta tanaman, agar dapat memilih informasi yang saya inginkan, saya dapat melakukan filter.
+- Sebagai seorang pecinta tanaman, agar dapat melakukan bisnis, saya dapat melakukan jual/beli.
+- Sebagai seorang pecinta tanaman, agar dapat menemukan informasi dengan mudah, saya ingin ada web yang terfokuskan pada tanaman hias dan sebagai tambahan sesama penggemar dapat bertukar pengalaman.
+- Sebagai calon pengguna, agar dapat melakukan aktivitas pada web, saya dapat melakukan registrasi di awal dengan memasukan data diri, alamat email, dan kata sandi.
+- Sebagai pengguna yang telah log out, agar dapat menggunakan web, saya dapat mengetikkan alamat email dan kata sandi saya untuk masuk ke aplikasi.
 
 # Hasil dan Pembahasan 
 - ERD adalah model atau rancangan untuk membuat database, untuk memudahkan dalam menggambarkan data yang memiliki hubungan atau relasi dalam bentuk sebuah desain. Berikut adalah ERD untuk website de-plant
