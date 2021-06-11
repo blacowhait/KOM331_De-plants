@@ -66,23 +66,23 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 # Ruang Lingkup 
 # Perangkat Keras 
 <table>
-    <thead>
-        <tr>
-            <th></th>
-            <th>Procsseo</th>
-            <th>Memory</th>
-            <th>Graphic Card</th>
-            <th>Storage</th>
-            <th></th>
-        </tr>
-    </thead>
     <tbody>
         <tr>
             <td>1</td>
-            <td>Grey Syafiq Kusuma</td>
-            <td>G64190017</td>
-            <td>Project Manager + Full-Stack</td>
+            <td>Processor</td>
+            <td>AMD Ryzen 5 2500U</td>
         </tr>
+        <tr>
+            <td>2</td>
+            <td>Memory</td>
+            <td>16 GB</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>vGraphic Card</td>
+            <td>Nvidia Geforce GTX 1050</td>
+        </tr>
+        
 </tbody>
 </table>
 # Panduan GitHub
