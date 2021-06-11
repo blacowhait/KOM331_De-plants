@@ -1,5 +1,5 @@
 # De-plants
-Sebuah aplikasi berbasis web yang bertujuan sebagai wadah untuk komunitas para pecinta tumbuhan untuk berbagi ilmu dan juga e-commerce untuk tumbuhan 
+Aplikasi berbasis web yang berfokus pada komunitas pecinta tanaman hias sebagai wadah untuk saling berbagi ilmu dan transaksi jual beli yang aman untuk para pecinta tanaman.
 
 # Daftar Isi
 - [Anggota Kelompok 13](#Anggota-Kelompok-13)
@@ -44,6 +44,10 @@ Sebuah aplikasi berbasis web yang bertujuan sebagai wadah untuk komunitas para p
         </tr>
     </tbody>
 </table>
+
+#Latar Belakang 
+Meningkatnya animo masyarakat untuk mengoleksi tanaman hias selama covid-19 tidak dibrengi dengann keamanan pada saat melakukan transaksi online. Banyak masyarakat awam yang tertipu saat membeli tanaman hias secara online karena minimnya informasi yang diperoleh. Oleh karena itu, de-plants web dapat menjadi solusi untuk komitas pecinta tanaman untuk berbagi informasi sekaligus merangkul masyarakat awam yang baru memulai hobi mengoleksi tanaman hias. sehingga ketika ingin membeli tanaman hias, mereka memiliki wadah yang aman untuk bertransaksi. 
+
 
 # Tujuan
 1. Sebagai wadah antar penggemar tanaman hias
