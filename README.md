@@ -3,8 +3,14 @@ Aplikasi berbasis web yang berfokus pada komunitas pecinta tanaman hias sebagai 
 
 # Daftar Isi
 - [Anggota Kelompok 13](#Anggota-Kelompok-13)
+- [Latar Belakang](#Latar-Belakang)
 - [Tujuan](#Tujuan)
+- [Ruang Lingkup](#Ruang-Lingkup)
 - [User Story](#User-Story)
+- [Hasil dan Pembahasan](#Hasil-dan-Pembahasan)
+- [Fungsi Utama](#Fungsi-utama)
+- [Fungsi CRUD](#Fungsi-CRUD)
+- [Hasil Implementasi]
 - [Panduan GitHub](#panduan-github)
 
 ## Anggota Kelompok 13 :
