@@ -183,7 +183,9 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 # Hasil Implementasi 
 
 # Project Dokumentation 
-Task management in [Trello](https://trello.com/b/G4FFZCay/project-rpl)
+- Task management in [Trello/de-plant](https://trello.com/b/G4FFZCay/project-rpl)
+- Repository code [Github/de-plant](https://github.com/blacowhait/KOM331_De-plants)
+- Website journal in [Googlesite/de-plant](https://sites.google.com/apps.ipb.ac.id/de-plants/project) 
 
 # Panduan GitHub
 - penjelasan folder
