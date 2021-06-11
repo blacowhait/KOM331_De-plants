@@ -183,7 +183,7 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 # Hasil Implementasi 
 
 # Project Dokumentation 
-[website saya]: http://software.endy.muhardin.com "Websitenya Endy"
+[Trello](https://trello.com/b/G4FFZCay/project-rpl)
 
 # Panduan GitHub
 - penjelasan folder
