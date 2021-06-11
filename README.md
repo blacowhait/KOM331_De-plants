@@ -156,26 +156,26 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
         <tr>
             <td>1</td>
             <td>Create</td>
-            <td>Membuat post</td>
-            <td></td>
+            <td>Membuat postingan</td>
+            <td>forum</td>
         </tr>
         <tr>
             <td>2</td>
             <td>Read</td>
-            <td></td>
-            <td></td>
+            <td>Membaca postingan forum dan jualan</td>
+            <td>Forum, marketplace</td>
         </tr>
         <tr>
             <td>3</td>
             <td>Update</td>
-            <td></td>
-            <td></td>
+            <td>Memperbarui profil</td>
+            <td>Use Profile</td>
         </tr>
         <tr>
             <td>4</td>
             <td>Delete</td>
-            <td></td>
-            <td></td>
+            <td>Menghapus postingan di forum dan marketplace, menghapus akun</td>
+            <td>Marketplace, user profile</td>
         </tr>
     </tbody>
 </table>
@@ -183,9 +183,9 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 # Hasil Implementasi 
 
 # Project Dokumentation 
-- Task management in [Trello/de-plant](https://trello.com/b/G4FFZCay/project-rpl)
-- Repository code [Github/de-plant](https://github.com/blacowhait/KOM331_De-plants)
-- Website journal in [Googlesite/de-plant](https://sites.google.com/apps.ipb.ac.id/de-plants/project) 
+- Task management in [trello/de-plant](https://trello.com/b/G4FFZCay/project-rpl)
+- Repository code [github/de-plant](https://github.com/blacowhait/KOM331_De-plants)
+- Website journal in [googlesite/de-plant](https://sites.google.com/apps.ipb.ac.id/de-plants/project) 
 
 # Panduan GitHub
 - penjelasan folder
