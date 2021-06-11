@@ -83,12 +83,54 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
             <td>Nvidia Geforce GTX 1050</td>
         </tr>
         <tr>
-            <td>54td>
-            <td>Storage/td>
+            <td>4</td>
+            <td>Storage</td>
             <td>1 TB</td>
         </tr>   
     </tbody>
 </table>
+
+# Perangkat Lunak
+<table>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Operating System</td>
+            <td>Windows 10 / Linux</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td># Perangkat Keras 
+<table>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Processor</td>
+            <td>AMD Ryzen 5 2500U</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Framework</td>
+            <td>Vue js / laravel</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Database</td>
+            <td>MySQL / PostgreSQL</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Server</td>
+            <td>Apache</td>
+        </tr>   
+         <tr>
+            <td>5</td>
+            <td>Text Editor</td>
+            <td>Sublime Text / Visual Studio Code</td>
+        </tr>   
+    </tbody>
+</table>
+          
 
 # Panduan GitHub
 - penjelasan folder
