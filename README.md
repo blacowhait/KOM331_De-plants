@@ -134,14 +134,13 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
     dan pengalaman pribadi pengguna lain.
 
 3. #### User Profile 
-    Menampilkan informasi singkat pengguna. Informasi yang ditampilkan adalah username, bio singkat, tanggal pengguna membuat akun dam infomasi forum atau post yang pernah           dibuat.
+    Menampilkan informasi singkat pengguna. Informasi yang ditampilkan adalah username, bio singkat, tanggal pengguna membuat akun dan infomasi forum atau post yang pernah           dibuat.
 
-4. Marketplace/transacation 
-Fitur ini 
-menampilkan berbagai tanaman hias beserta harga yang ditawarkan. Terdapat deskripsi produk dan review dari beberapa pembeli terkait produk tersebut.
+4. #### Marketplace/transacation 
+    Fitur ini menampilkan berbagai tanaman hias beserta harga yang ditawarkan. Terdapat deskripsi produk dan review dari beberapa pembeli terkait produk tersebut.
 
-5. Forum/thread
-Pada fitur ini pengguna dapat membuat forum berisi pertanyaan seputar perawatan tanaman hias, pengguna lain dapat membuat post untuk menjawab pertanyaan tersebut. Pengguna juga dapat memberi informasi terkait perawatan tanaman hias berdasarkan pengalaman pribadi.
+5. #### Forum/thread
+    Pada fitur ini pengguna dapat membuat forum berisi pertanyaan seputar perawatan tanaman hias, pengguna lain dapat membuat post untuk menjawab pertanyaan tersebut. Pengguna       juga dapat memberi informasi terkait perawatan tanaman hias berdasarkan pengalaman pribadi.
 
 
 # Panduan GitHub
