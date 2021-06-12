@@ -216,14 +216,21 @@ Meningkatnya animo masyarakat untuk mengoleksi tanaman hias selama covid-19 tida
    Fungsi delete digunakan untuk  menghapus baris atau row tertentu dalam klausa where. Pada website ini, pengguna dapat menghapus postingan di forum dan marketplace dan dapat      menghapus akun. 
    
 ## Hasil Implementasi
-login dan sign up 
+### login dan sign up 
    ![login](https://user-images.githubusercontent.com/65409089/121769173-552ffb80-cb8c-11eb-9c83-30644cd9d231.jpeg)
    ![sign up](https://user-images.githubusercontent.com/65409089/121769214-8b6d7b00-cb8c-11eb-957e-9928d41f7f78.jpeg)
-homepage 
+### homepage 
+   ![Homepage](https://user-images.githubusercontent.com/65409089/121769274-d4253400-cb8c-11eb-830d-1d44a2b2165a.jpeg)
+   ![home (1)](https://user-images.githubusercontent.com/65409089/121769276-d8515180-cb8c-11eb-8764-5ee33a734316.jpeg)
 ### user profile
-![Forum](https://user-images.githubusercontent.com/65409089/121769363-6fb6a480-cb8d-11eb-8c70-35c03d143c44.jpeg)
-marketplace/transaction
-forum/theards
+   ![Forum](https://user-images.githubusercontent.com/65409089/121769363-6fb6a480-cb8d-11eb-8c70-35c03d143c44.jpeg)
+### marketplace/transaction
+   ![marketplace 1](https://user-images.githubusercontent.com/65409089/121769385-8957ec00-cb8d-11eb-910c-983805873719.jpeg)
+   ![marketplace](https://user-images.githubusercontent.com/65409089/121769401-91b02700-cb8d-11eb-8e88-45fdf32aec31.jpeg)
+   ![marketplace 3](https://user-images.githubusercontent.com/65409089/121769396-8eb53680-cb8d-11eb-8126-4b0530fbdbb0.jpeg)
+### forum/theards
+   ![buat post](https://user-images.githubusercontent.com/65409089/121769241-af30c100-cb8c-11eb-8c33-555c2c5bd47c.jpeg)
+   ![forum 3](https://user-images.githubusercontent.com/65409089/121769248-b5bf3880-cb8c-11eb-9a3f-9fab3e3cb23b.jpeg)
 
 ## Project Dokumentation 
 - Task management in [trello/de-plant](https://trello.com/b/G4FFZCay/project-rpl)
