@@ -207,7 +207,7 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 
 
 # Hasil Implementasi 
-1. Create
+1. #### Create
 Fungsi create digunakan untuk menambahkan kalimat untuk membuat sebuah catatan baru. Website de-plants menyediakan fitur forum yang dapat digunakan pengguna untuk membuat postingan, membalas postingan pengguna lain serta membuat theard (postingan panjang). Pengguna yang ingin berjualan juga dapat menambahkan produknya pada fitur marketplace.    
            
 2. Read 
