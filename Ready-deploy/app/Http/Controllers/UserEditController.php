@@ -39,6 +39,15 @@ class UserEditController extends Controller
     }
 
 
+    //public function edityt($id)
+    //{
+    //    $data = [
+    //        'user' => $this->usermodel->detailData($id),
+    //    ];
+    //    return view('v_edituser', $data);
+    //}
+
+
     public function update(Request $request, Users $users)
     {
 
@@ -48,18 +57,9 @@ class UserEditController extends Controller
                     'email'=> $request->email,
                     'address'=> $request->address,
                     'phone_number'=> $request->phone_number,
-                    'password'=> $request->password,
-                    'profilepict'=> $request->profilepict, 
-                    'bio'=> $request->bio
+                    'password'=> $request->password,     
                 ]);
-
-        return redirect('/home/edituser')->with('status',"data berhasil diperbaharui!");
-    }
-    
-    public function delete($id)
-    {
-        users::where('id', auth()->user()->id)->delete();
-        return redirect('/');
+        return redirect('/home/edituser')->with('status','data mahasiswa berhasil diperbaharui!');
     }
 
     public function show($id)

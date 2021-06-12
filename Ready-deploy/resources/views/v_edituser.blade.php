@@ -1,86 +1,289 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>De-plants</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="{{asset('CSS/webpage.css')}}">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="{{asset('JS/bootstrap.js')}}"></script>
-    <title>Edit Profile</title>
-  </head>
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{{asset('AdminLTE/plugins/fontawesome-free/css/all.min.css')}}">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{{asset('AdminLTE/dist/css/adminlte.min.css')}}">
+</head>
+<body class="hold-transition sidebar-mini">
+<!-- Site wrapper -->
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="/home" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Contact</a>
+      </li>
+    </ul>
 
-  <body class="mainbody">
-
-    <div class="navbar">
-
-      <a href="/home"><img class="logoimg" src="{{asset('Picture/logo2.png')}}"></a>
-      <label class="maintext marginleft"><a href="/home">Home</a></label>
-      <label class="maintext marginleft"><a href="/forums">Forum</a></label>
-      <label class="maintext marginleft"><a href="/marketplace">Marketplace</a></label>
-      <div class="navsearch-logo">
-        <input type="text" class="searchbox" placeholder="Search">
-        <a href="/profile">
-        <div class="sm-profile-pic">
-          <!-- load database profile icon -->
-          <img src="{{ asset('/img/'.auth()->user()->profilepict) }}" class="iconsmall">
-        </div>
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Navbar Search -->
+      <li class="nav-item">
+        <a class="nav-link" data-widget="navbar-search" href="#" role="button">
+          <i class="fas fa-search"></i>
         </a>
+        <div class="navbar-search-block">
+          <form class="form-inline">
+            <div class="input-group input-group-sm">
+              <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+              <div class="input-group-append">
+                <button class="btn btn-navbar" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </li>
+
+          <!-- Notifications Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-bell"></i>
+          <span class="badge badge-warning navbar-badge">15</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-item dropdown-header">15 Notifications</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-envelope mr-2"></i> 4 new messages
+            <span class="float-right text-muted text-sm">3 mins</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-users mr-2"></i> 8 friend requests
+            <span class="float-right text-muted text-sm">12 hours</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-file mr-2"></i> 3 new reports
+            <span class="float-right text-muted text-sm">2 days</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+          <i class="fas fa-expand-arrows-alt"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="{{asset('profile.jpg')}}" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a color="white">{{auth()->user()->name}}</a>
+        </div>
       </div>
-     
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library --> 
+           
+      </nav>
+      <!-- /.sidebar-menu -->
     </div>
+    <!-- /.sidebar -->
+  </aside>
 
-    <div class="maincontent">
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
 
-      <form action=" /home/edituser" method="POST" enctype="multipart/form-data">
-        @csrf
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li>
+                  <a class="dropdown-item" href="{{ route('logout') }}"
+                      onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();">
+                        {{ __('Logout') }}
+                  </a>
+                      <form id="logout-form" action="{{ route('logout') }}" 
+                      method="POST" class="d-none">
+                                  @csrf
+                      <button type="submit" class="btn btn-default btn-flat" >Log out</button>
+                     </form>
+              </li>
+              <li>
+                <a href="/home/edituser">Edit Profile</a>
+              </li>
+              
+            </ol>
 
-        <span class="maintext font30 underline margineditprof"><strong>Edit Profile</strong></span><br><br><br><br>
-        <!-- EDIT PROFILE PICTURE -->
-        <div class="md-profile-pic">
-          <img src="{{ asset('/img/'.auth()->user()->profilepict) }}" class="iconmed"><br><br><br><input type="file" class="form-control" name="profilepict" placeholder="profilepict" value="">
-        </div><br>
-        <!-- EDIT USERNAME -->
-        <span class="maintext inline marginright-editprofile">Username:<br><input type="name" class="form-control" name="name" placeholder="Name" value="{{ auth()->user()->name }}"></span>
-        <!-- EDIT NEW PASSWORD -->
-        <span class="maintext inline">New Password:<br><input type="password" class="form-control" name="password" placeholder="Password"></span><br>
-        <!-- EDIT EMAIL -->
-        <span class="maintext inline marginright-editprofile">Email: <br> <input type="email" class="form-control" name="email" placeholder="Email" value="{{ auth()->user()->email }}"> </span>
-        <!-- EDIT CONFIRM NEW PASSWORD -->
-        <span class="maintext inline">Confirm Password:<br><input type="password" class="form-control" name="password_confirmation" placeholder="Password Confirmation"></span><br>
-        <!-- EDIT PHONE NUMBER -->
-        <span class="maintext inline  marginright-editprofile">Phone Number: <br><input type="phone_number" class="form-control" name="phone_number" placeholder="Phone Number" value="{{ auth()->user()->phone_number }}"></span>
-        <!-- CONFIRM OLD PASSWORD -->
-        <span class="maintext inline">Current Password:<br><input type="password" value="{{ auth()->user()->password }}"></span><br><br><br><b></br><br><br><br>
-        <!-- EDIT PROFILE DESCRIPTION -->
-        <div class="inline describe">
-          <span class="maintext">Describe Yourself:</span><br>
-          <textarea type="bio" class="bio" name="bio" placeholder="About Yourself"></textarea><br>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+       <!-- Default box -->
+     <form method="POST" action=" /home/edituser/{{ auth()->user()->id }}">
+          @csrf
+
+      <div class="input-group mb-3">
+          <input type="name" class="form-control" name="name" placeholder="Name" value="{{ auth()->user()->name }}"> 
+          <div class="col-sm-6">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user"></span>
+              @error("name")
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+              @enderror
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="input-group mb-3">
+          <input type="email" class="form-control" name="email" placeholder="Email" value="{{ auth()->user()->email }}">
+          <div class="col-sm-6">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-envelope"></span>
+              @error("email")
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+              @enderror
+               </div>
+            </div>
+          </div>
         </div>
 
-        <button type="submit" class="btn btn-primary left-sm">Save</button>
+        <div class="input-group mb-3">
+          <input type="address" class="form-control" name="address" placeholder="Address" value="{{ auth()->user()->address }}">
+          <div class="col-sm-6">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-home"></span>
+              @error("address")
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+              @enderror
+               </div>
+            </div>
+          </div>
+        </div>
+
+         <div class="input-group mb-3">
+          <input type="phone_number" class="form-control" name="phone_number" placeholder="Phone Number" value="{{ auth()->user()->phone_number }}">
+          <div class="col-sm-6">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-phone"></span>
+              @error("phone_number")
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+              @enderror
+               </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-group mb-3">
+          <input type="password" class="form-control" name="password" placeholder="Password" value="{{ auth()->user()->password }}">
+          <div class="col-sm-6">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+              @error("password")
+                      <span class="invalid-feedback" role="alert">
+                          <strong>{{ $message }}</strong>
+                      </span>
+              @enderror
+               </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-8">
+            <div class="icheck-primary">
         
+              <label for="remember">
+
+              </label>
+            </div>
+          </div>
+          <!-- /.col -->
+          <div class="col-5">
+            <button type="submit" class="btn btn-primary left-sm">Simpan</button>
+          </div>
+          <!-- /.col -->
+        </div>
       </form>
 
-      <form action="/home/edituser/{{ auth()->user()->id }}" method="post" onsubmit="return confirm('Are you sure you wanna delete account?')">
-              @method('delete')
-              @csrf
-              <button class="btn btn-danger btn-sm">
-                Delete Account
-              </button>
 
-              <div class="col-5">
-            <a href="/" color="red">Logout</a>
-          </div>
-        </form>
+        <!-- /.card-footer-->
+      <!-- /.card -->
 
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2021 <a href="https://adminlte.io">De-Plants</a>.</strong> All rights reserved.
+  </footer>
 
-    </div>
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
 
-
-  </body>
+<!-- jQuery -->
+<script src="{{asset('AdminLTE/plugins/jquery/jquery.min.js')}}"></script>
+<!-- Bootstrap 4 -->
+<script src="{{asset('AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<!-- AdminLTE App -->
+<script src="{{asset('AdminLTE/dist/js/adminlte.min.js')}}"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="{{asset('AdminLTE/dist/js/demo.js')}}"></script>
+</body>
 </html>
