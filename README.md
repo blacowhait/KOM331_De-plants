@@ -1,9 +1,9 @@
-# De-plants
+## De-plants
 ![Logo_new__1_-removebg-preview](https://user-images.githubusercontent.com/65409089/121768756-0c774300-cb8a-11eb-853b-45fd5a9c6442.png)
            
 Aplikasi berbasis web yang berfokus pada komunitas pecinta tanaman hias sebagai wadah untuk saling berbagi ilmu dan transaksi jual beli yang aman untuk para pecinta tanaman.
 
-# Daftar Isi
+## Daftar Isi
 - [Anggota Kelompok 13](#Anggota-Kelompok-13)
 - [Latar Belakang](#Latar-Belakang)
 - [Tujuan](#Tujuan)
@@ -16,7 +16,7 @@ Aplikasi berbasis web yang berfokus pada komunitas pecinta tanaman hias sebagai 
 - [Project Dokumentation](#Project-Dokumentation)
 - [Panduan GitHub](#panduan-github)
 
-# Anggota Kelompok 13 :
+## Anggota Kelompok 13 :
 <table>
     <thead>
         <tr>
@@ -54,17 +54,16 @@ Aplikasi berbasis web yang berfokus pada komunitas pecinta tanaman hias sebagai 
     </tbody>
 </table>
 
-# Latar Belakang 
-Meningkatnya animo masyarakat untuk mengoleksi tanaman hias selama covid-19 tidak dibarengi dengan keamanan saat melakukan transaksi online. Banyak masyarakat awam yang
-tertipu saat membeli tanaman hias secara online karena minimnya informasi yang diperoleh. Oleh karena itu, de-plants web dapat menjadi solusi untuk komunitas pecinta tanaman untuk berbagi informasi sekaligus merangkul masyarakat awam yang baru memulai hobi mengoleksi tanaman hias. Sehingga ketika ingin membeli tanaman hias, mereka memiliki wadah yang aman untuk bertransaksi. 
+## Latar Belakang
+Meningkatnya animo masyarakat untuk mengoleksi tanaman hias selama covid-19 tidak dibarengi dengan keamanan pada saat melakukan transaksi online. Banyak masyarakat awam yang tertipu saat membeli tanaman hias secara online karena minimnya informasi yang diperoleh. Oleh karena itu, de-plants web dapat menjadi solusi untuk komunitas pecinta tanaman untuk berbagi informasi sekaligus merangkul masyarakat awam yang baru memulai hobi mengoleksi tanaman hias. Sehingga ketika ingin membeli tanaman hias, mereka memiliki wadah yang aman untuk bertransaksi. 
 
-# Tujuan
+## Tujuan
 1. Sebagai wadah antar penggemar tanaman hias
 2. Mempermudah penggemar tanaman hias untuk saling berkoneksi dan bertukar informasi
 3. Memungkinkan untuk berjual beli tanaman hias antar penggemar
 
-# Ruang Lingkup 
-## Perangkat Keras 
+## Ruang Lingkup 
+### Perangkat Keras 
 <table>
     <tbody>
         <tr>
@@ -90,7 +89,7 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
     </tbody>
 </table>
 
-## Perangkat Lunak
+### Perangkat Lunak
 <table>
     <tbody>
         <tr>
@@ -121,22 +120,22 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
     </tbody>
 </table>
 
-# User Story
+## User Story
 - Sebagai seorang pecinta tanaman, agar dapat bertukar informasi dengan dengan pecinta tanaman yang lain, saya ingin ada wadah untuk saling berkomunikasi
 - Sebagai seorang pecinta tanaman, agar dapat bertukar informasi dengan dengan pecinta tanaman yang lain, saya dapat membuat sebuah semacam post.
 - Sebagai seorang pecinta tanaman, agar dapat memilih informasi yang saya inginkan, saya dapat melakukan filter.
 - Sebagai seorang pecinta tanaman, agar dapat melakukan bisnis, saya dapat melakukan jual/beli.
-- Sebagai seorang pecinta tanaman, agar dapat menemukan informasi dengan mudah, saya ingin ada web yang terfokuskan pada tanaman hias dan sebagai tambahan sesama penggemar dapat bertukar pengalaman.
+- Sebagai seorang pecinta tanaman, agar dapat menemukan informasi dengan mudah, saya ingin ada web yang terfokuskan pada tanaman hias dan sebagai tambahan sesama penggemar dapat   bertukar pengalaman.
 - Sebagai calon pengguna, agar dapat melakukan aktivitas pada web, saya dapat melakukan registrasi di awal dengan memasukan data diri, alamat email, dan kata sandi.
 - Sebagai pengguna yang telah log out, agar dapat menggunakan web, saya dapat mengetikkan alamat email dan kata sandi saya untuk masuk ke aplikasi.
 
-# Hasil dan Pembahasan 
+## Hasil dan Pembahasan 
 - ERD adalah model atau rancangan untuk membuat database, untuk memudahkan dalam menggambarkan data yang memiliki hubungan atau relasi dalam bentuk sebuah desain. Berikut adalah ERD untuk website de-plant
 ![ERD_RPL_(1)](https://user-images.githubusercontent.com/65409089/121768969-3c731600-cb8b-11eb-95a3-e4692506732d.png)
 
 - Diagram arsitektur adalah bahasa gambar yang digunakan dalam bidang arsitektur untuk menerangkan konsep, prinsip, anasir, dan komponen, termasuk cara kerja maupun petunjuk penggunaannya. Berikut adalah arsitektur diagram website de-plant 
 
-# Fungsi Utama 
+## Fungsi Utama 
 1. #### Login dan sign up 
     Pada fitur ini pengguna dapat mendaftar akun dan masuk ke dalam website de-plant. 
     ![login](https://user-images.githubusercontent.com/65409089/121769173-552ffb80-cb8c-11eb-9c83-30644cd9d231.jpeg)
@@ -165,7 +164,7 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
     ![buat post](https://user-images.githubusercontent.com/65409089/121769241-af30c100-cb8c-11eb-8c33-555c2c5bd47c.jpeg)
     ![forum 3](https://user-images.githubusercontent.com/65409089/121769248-b5bf3880-cb8c-11eb-9a3f-9fab3e3cb23b.jpeg)
 
-# Fungsi CRUD 
+## Fungsi CRUD 
 <table>
     <thead>
         <tr>
@@ -215,12 +214,12 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 4. #### Delete 
    Fungsi delete digunakan untuk  menghapus baris atau row tertentu dalam klausa where. Pada website ini, pengguna dapat menghapus postingan di forum dan marketplace dan dapat      menghapus akun. 
 
-# Project Dokumentation 
+## Project Dokumentation 
 - Task management in [trello/de-plant](https://trello.com/b/G4FFZCay/project-rpl)
 - Repository code [github/de-plant](https://github.com/blacowhait/KOM331_De-plants)
 - Website journal in [googlesite/de-plant](https://sites.google.com/apps.ipb.ac.id/de-plants/project) 
 
-# Panduan GitHub
+## Panduan GitHub
 - penjelasan folder
     - Front-end     : berisi code bagian Front-end
     - Back-end      : berisi code bagian Back-end
@@ -237,3 +236,5 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
     - git add . //add semua file yang ada
     - git commit -m "pesan apa gitu" //ngasih pesan
     - git push origin master //upload semua file ke branch master
+
+## Saran untuk pengembangan selanjutnya 
