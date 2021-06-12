@@ -150,6 +150,7 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 
 3. #### User Profile 
     Menampilkan informasi singkat pengguna. Informasi yang ditampilkan adalah username, bio singkat, tanggal pengguna membuat akun dan infomasi forum atau post yang pernah           dibuat.
+    
     ![Forum](https://user-images.githubusercontent.com/65409089/121769363-6fb6a480-cb8d-11eb-8c70-35c03d143c44.jpeg)
 
 4. #### Marketplace/transacation 
