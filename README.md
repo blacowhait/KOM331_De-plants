@@ -202,7 +202,7 @@ Meningkatnya animo masyarakat untuk mengoleksi tanaman hias selama covid-19 tida
     </tbody>
 </table>
 
-## Detail CRUD website de-plants
+### Detail CRUD website de-plants
 1. #### Create
    Fungsi create digunakan untuk menambahkan kalimat untuk membuat sebuah catatan baru. Website de-plants menyediakan fitur forum yang dapat digunakan pengguna untuk membuat        postingan, membalas postingan pengguna lain serta membuat theard (postingan panjang). Pengguna yang ingin berjualan juga dapat menambahkan produknya pada fitur marketplace.       
 2. #### Read 
