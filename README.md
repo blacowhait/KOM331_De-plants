@@ -16,7 +16,7 @@ Aplikasi berbasis web yang berfokus pada komunitas pecinta tanaman hias sebagai 
 - [Project Dokumentation](#Project-Dokumentation)
 - [Panduan GitHub](#panduan-github)
 
-## Anggota Kelompok 13 :
+# Anggota Kelompok 13 :
 <table>
     <thead>
         <tr>
@@ -132,12 +132,14 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 
 # Hasil dan Pembahasan 
 - ERD adalah model atau rancangan untuk membuat database, untuk memudahkan dalam menggambarkan data yang memiliki hubungan atau relasi dalam bentuk sebuah desain. Berikut adalah ERD untuk website de-plant
+![ERD_RPL_(1)](https://user-images.githubusercontent.com/65409089/121768969-3c731600-cb8b-11eb-95a3-e4692506732d.png)
 
 - Diagram arsitektur adalah bahasa gambar yang digunakan dalam bidang arsitektur untuk menerangkan konsep, prinsip, anasir, dan komponen, termasuk cara kerja maupun petunjuk penggunaannya. Berikut adalah arsitektur diagram website de-plant 
 
 # Fungsi Utama 
 1. #### Login dan sign up 
     Pada fitur ini pengguna dapat mendaftar akun dan masuk ke dalam website de-plant. 
+    
 2. #### Homepage
     Pengguna dapat melihat halaman depan web de-plants, disana terdapat katalog tanaman hias dan forum yang membahas seputar perawatan tanaman hias
     dan pengalaman pribadi pengguna lain.
