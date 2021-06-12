@@ -155,8 +155,8 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 4. #### Marketplace/transacation 
     Fitur ini menampilkan berbagai tanaman hias beserta harga yang ditawarkan. Terdapat deskripsi produk dan review dari beberapa pembeli terkait produk tersebut.
     ![marketplace 1](https://user-images.githubusercontent.com/65409089/121769385-8957ec00-cb8d-11eb-910c-983805873719.jpeg)
-    ![marketplace 3](https://user-images.githubusercontent.com/65409089/121769396-8eb53680-cb8d-11eb-8126-4b0530fbdbb0.jpeg)
     ![marketplace](https://user-images.githubusercontent.com/65409089/121769401-91b02700-cb8d-11eb-8e88-45fdf32aec31.jpeg)
+    ![marketplace 3](https://user-images.githubusercontent.com/65409089/121769396-8eb53680-cb8d-11eb-8126-4b0530fbdbb0.jpeg)
     
 5. #### Forum/thread
     Pada fitur ini pengguna dapat membuat forum berisi pertanyaan seputar perawatan tanaman hias, pengguna lain dapat membuat post untuk menjawab pertanyaan tersebut. Pengguna       juga dapat memberi informasi terkait perawatan tanaman hias berdasarkan pengalaman pribadi.
