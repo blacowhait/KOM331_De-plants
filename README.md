@@ -1,5 +1,6 @@
 # De-plants
 ![Logo_new__1_-removebg-preview](https://user-images.githubusercontent.com/65409089/121768756-0c774300-cb8a-11eb-853b-45fd5a9c6442.png)
+
 Aplikasi berbasis web yang berfokus pada komunitas pecinta tanaman hias sebagai wadah untuk saling berbagi ilmu dan transaksi jual beli yang aman untuk para pecinta tanaman.
 
 # Daftar Isi
