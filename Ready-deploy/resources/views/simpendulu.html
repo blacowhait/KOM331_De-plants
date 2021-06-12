@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../../CSS/webpage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="{{asset('JS/bootstrap.js')}}"></script>
+    <title>Forums</title>
+  </head>
+
+  <body class="mainbody">
+
+    <div class="navbar">
+
+      <a href="/home"><img class="logoimg" src="{{asset('Picture/logo2.png')}}"></a>
+      <label class="maintext marginleft"><a href="/home">Home</a></label>
+      <label class="maintext marginleft">Forum</label>
+      <label class="maintext marginleft"><a href="/marketplace">Marketplace</a></label>
+      <div class="navsearch-logo">
+        <input type="text" class="searchbox" placeholder="Search">
+        <div class="sm-profile-pic">
+          <!-- load database profile icon -->
+          <img src="{{asset('Picture/samplemarketplace.png')}}" class="iconsmall">
+        </div>
+      </div>
+   
+
+    <div class="maincontent">
+
+      <div class="maintext"><strong>{{auth()->user()->name}} Profile</strong></div>
+      <div class="forum-box-lg">
+
+        <div class="lg-profile-pic">
+          <img src="{{asset('Picture/samplemarketplace.png')}}" class="iconlarge">
+        </div>
+
+        <div class="profile-details">
+          <div class="maintextheader"><strong>
+            <!-- USERNAME DARI DATABASE -->
+            {{auth()->user()->name}} Profile</strong>
+          </div>
+          <div class="maintext underline">
+            <!-- TANGGAL AKUN DIBUAT -->
+            Created at {{auth()->user()->created_at}}
+          </div>
+          <div class="maintext fitdiv font16">
+            <!-- SIGNATURE USER -->
+           <form method="POST" action=" /home/edituser/{{ auth()->user()->id }}" >
+          @csrf
+
+      <div class="input-group mb-3">
+          <input type="name" class="form-control" name="name" placeholder="Name" value="{{ auth()->user()->name }}"> 
+          <div class="col-sm-6">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user"></span>
+              @error("name")
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+              @enderror
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="input-group mb-3">
+          <input type="email" class="form-control" name="email" placeholder="Email" value="{{ auth()->user()->email }}">
+          <div class="col-sm-6">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-envelope"></span>
+              @error("email")
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+              @enderror
+               </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-group mb-3">
+          <input type="address" class="form-control" name="address" placeholder="Address" value="{{ auth()->user()->address }}">
+          <div class="col-sm-6">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-home"></span>
+              @error("address")
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+              @enderror
+               </div>
+            </div>
+          </div>
+        </div>
+
+         <div class="input-group mb-3">
+          <input type="phone_number" class="form-control" name="phone_number" placeholder="Phone Number" value="{{ auth()->user()->phone_number }}">
+          <div class="col-sm-6">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-phone"></span>
+              @error("phone_number")
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+              @enderror
+               </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-group mb-3">
+          <input type="password" class="form-control" name="password" placeholder="Password" value="{{ auth()->user()->password }}">
+          <div class="col-sm-6">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+              @error("password")
+                      <span class="invalid-feedback" role="alert">
+                          <strong>{{ $message }}</strong>
+                      </span>
+              @enderror
+               </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-8">
+            <div class="icheck-primary">
+        
+              <label for="remember">
+
+              </label>
+            </div>
+          </div>
+          <!-- /.col -->
+          <div class="col-5">
+            <button type="submit" class="btn btn-primary left-sm">Update data</button>
+          </div>
+          <!-- /.col -->
+        </div>
+      </form>
+      <form action="/home/edituser/{{ auth()->user()->id }}" method="post" onsubmit="return confirm('Are you sure you wanna delete account?')">
+              @method('delete')
+              @csrf
+              <button class="btn btn-danger btn-sm">
+                Delete Account
+              </button>
+
+              <div class="col-5">
+            <a href="/" color="red">Logout</a>
+          </div>
+        </form>
+          </div>
+          <div class="statusbubble">
+            <div class="maintext font12 centered">NEW</div>
+          </div>
+          <div class="statusbubble">
+            <div class="maintext font12 centered">Planters</div>
+          </div>
+          <div class="statusbubble">
+            <div class="maintext font12 centered">Seller</div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+  </body>
+</html>

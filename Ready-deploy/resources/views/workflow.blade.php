@@ -123,7 +123,7 @@
               <img src="{{asset('Picture/logo2.png')}}">
             </div>
             <div class="modalmain">
-              <form action="{{route('register')}}" method="POST">
+              <form action="{{ route('register') }}" method="POST">
               @csrf
               <input type="hidden" name="_token" value="{{ csrf_token() }}">
               <div class="nama-sign-up">

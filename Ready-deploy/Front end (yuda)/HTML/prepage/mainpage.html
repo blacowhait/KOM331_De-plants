@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../../CSS/prepage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="../../JS/bootstrap.js"></script>
+    <title>Mainpage</title>
+  </head>
+
+  <body class="mainbody">
+    <div class="Logo">
+      <a href="mainpage.html"><img class="logoimg" src="../../Picture/logo2.png"></a>
+    </div>
+    <div class="navbar">
+      <label class="Home">Home</label>
+      <label class="Homeunderline"></label>
+      <label class="About0"><a href="about.html">About</a></label>
+      <label class="ContactUS"><a href="ContactUs.html">Contact Us</a></label>
+      <div class="searchmain">
+        <button class="buttonsearch" data-toggle="modal" data-target="#loginpopup">
+          <img class="search" src="../../Picture/search.png">
+        </button>
+      </div>
+      <div class="loginmain">
+        <button type="button" class="buttonmain" data-toggle="modal" data-target="#loginpopup">
+          <label class="buttontext">Login</label>
+        </button>
+      </div>
+    </div>
+    <div class="homepage">
+      We provide you <br> a place <br> for Plant Enthusiast!
+    </div>
+    <div class="homepagetext">
+      To become a place for plant lovers to interact by sharing knowledge and then having a buying and selling feature for the needs of plants and plants themselves.
+    </div>
+    <div class="signupmain">
+      <button class="buttonmain" data-toggle="modal" data-target="#signuppopup">
+        <label class="buttontext">Join now</label>
+      </button>
+    </div>
+    <a href="See How it Works.html">
+      <div class="Seehowitworks">
+        <button class="button2">
+          <label class="buttontext">See how it works &#8594;</label>
+        </button>
+      </div>
+    </a>
+
+    <div class="picloc">
+      <img src="../../Picture/pic1.png">
+    </div>
+
+    <!-- Modal -->
+    <div id="loginpopup" class="modal fade" tabindex="-1">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content0">
+          <div class="logo">
+            
+          </div>
+          <div class="modal-body">
+            <div class="logomodal">
+              <img src="../../Picture/logo2.png">
+            </div>
+            <div class="modalmain">
+              <form action="" method="">
+                <label class="usernamee">Username</label><br>
+                    <input type="text" name="Email" class="textboxlocmodal"><br>
+                <label class="passwordd">Password</label><br>
+                    <input type="password" name="password" class="textboxlocmodal2"><br><br><br>
+                <button class="modalbutton">
+                    <label class="buttontext"><a href="../webpage/Home.html">Login</a></label>
+                </button>
+              </form>
+              <br><br><br>
+              <label class="modalfootersignup"><br>
+                Dont have account? <a href="signupseparated.html">Make Account</a>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="signuppopup" class="modal fade" tabindex="-1">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content0">
+          <div class="logo">
+            
+          </div>
+          <div class="modal-body pop-up">
+            <div class="logomodal">
+              <img src="../../Picture/logo2.png">
+            </div>
+            <div class="modalmain">
+              <form action="" method="">
+              <div class="nama-sign-up">
+                <label class="emaill">Name</label><br>
+                    <input type="text" name="Name" class="textboxlocmodal1"><br>
+              </div>
+
+              <div class="email-sign-up">
+                <label class="usernamee">Email</label><br>
+                    <input type="Email" name="Email" class="textboxlocmodal"><br>
+              </div>
+
+              <div class="address-sign-up">
+                <label class="usernamee">Address</label><br>
+                    <input type="text" name="Adrress" class="textboxlocmodal"><br>
+              </div>
+
+              <div class="telpon-sign-up">
+                <label class="usernamee">Phone Number</label><br>
+                    <input type="number" name="Phone" class="textboxlocmodal"><br>
+              </div>
+
+              <div class="password-sign-up">
+                <label class="passwordd">Password</label><br>
+                    <input type="password" name="Password" class="textboxlocmodal2" id="password"><br>
+              </div>
+
+              <div class="confirmpass-sign-up">
+                <label class="passwordd">Confirm Password</label><br>
+                    <input type="password" name="Password" class="textboxlocmodal2" id="confirm_password"><br><br>
+              </div>
+
+              <div class="footer-sign-up">
+                <button class="modalbutton">
+                    <label class="buttontext"><a href="../webpage/Home.html">Sign Up</a></label>
+                </button>
+                <br><br><br><br>
+                <label class="modalfooterlogin">
+                    Have account? <a href="loginseparated.html">Login</a>
+                </label> 
+              </div>
+
+            </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script type="text/javascript" src="JS/bootstrap.JS"></script>
+  </body>

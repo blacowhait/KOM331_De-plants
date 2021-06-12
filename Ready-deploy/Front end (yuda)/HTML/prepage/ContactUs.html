@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../../CSS/prepage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="../../JS/bootstrap.js"></script>
+    <title>Mainpage</title>
+  </head>
+
+  <body class="mainbody">
+    <div class="Logo">
+      <a href="mainpage.html"><img class="logoimg" src="../../Picture/logo2.png"></a>
+    </div>
+    <div class="navbar">
+      <div class="Home"><a href="mainpage.html">Home</a></div>
+      <div class="About0"><a href="about.html">About</a></div>
+      <div class="ContactUS">Contact Us</div>
+      <div class="Contactusunderline"></div>
+      <div class="searchmain">
+        <button class="buttonsearch" data-toggle="modal" data-target="#loginpopup">
+          <img class="search" src="../../Picture/search.png">
+        </button>
+      </div>
+      <div class="loginmain">
+        <button type="button" class="buttonmain" data-toggle="modal" data-target="#loginpopup">
+          <label class="buttontext">Login</label>
+        </button>
+      </div>
+    </div>
+    <div class="ContactUsheader">
+      Contact Us
+    </div>
+    <div class="ContactUstext">
+      If you find something to make this website better or found something bad, please contact us.
+    </div>
+    <div class="formcontact">
+        <label class="youremail">Email</label>
+          <div class="textboxloc">
+            <span class="maintext">Admin@deplants.com</span>
+          </div>
+        <label class="howcanwehelp">Phone Number</label>
+          <div class="textboxloc2">
+            <span class="maintext">0854-3082-6764</span>
+          </div>
+        <label class="Address">Address</label>
+          <div class="textboxloc3">
+            <span class="maintext">Kampus IPB, Jl. Raya Dramaga, Babakan, Kec. Dramaga, Kota Bogor, Jawa Barat 16680</span>
+          </div>
+    </div>
+
+    <div class="picloc">
+      <img src="../../Picture/pic3.png">
+    </div>
+
+    <!-- Modal -->
+    <div id="loginpopup" class="modal fade" tabindex="-1">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content0">
+          <div class="logo">
+            
+          </div>
+          <div class="modal-body">
+            <div class="logomodal">
+              <img src="../../Picture/logo2.png">
+            </div>
+            <div class="modalmain">
+              <form action="" method="">
+                <label class="usernamee">Username</label><br>
+                    <input type="text" name="Email" class="textboxlocmodal"><br>
+                <label class="passwordd">Password</label><br>
+                    <input type="password" name="password" class="textboxlocmodal2"><br><br><br>
+                <button class="modalbutton">
+                    <label class="buttontext"><a href="../webpage/Home.html">Login</a></label>
+                </button>
+              </form>
+              <br><br><br>
+              <label class="modalfootersignup"><br>
+                Dont have account? <a href="signupseparated.html">Make Account</a>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  </body>
