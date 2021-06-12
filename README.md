@@ -139,10 +139,14 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 # Fungsi Utama 
 1. #### Login dan sign up 
     Pada fitur ini pengguna dapat mendaftar akun dan masuk ke dalam website de-plant. 
+    ![login](https://user-images.githubusercontent.com/65409089/121769173-552ffb80-cb8c-11eb-9c83-30644cd9d231.jpeg)
+    ![sign up](https://user-images.githubusercontent.com/65409089/121769214-8b6d7b00-cb8c-11eb-957e-9928d41f7f78.jpeg)
     
 2. #### Homepage
     Pengguna dapat melihat halaman depan web de-plants, disana terdapat katalog tanaman hias dan forum yang membahas seputar perawatan tanaman hias
     dan pengalaman pribadi pengguna lain.
+    ![Homepage](https://user-images.githubusercontent.com/65409089/121769274-d4253400-cb8c-11eb-830d-1d44a2b2165a.jpeg)
+    ![home (1)](https://user-images.githubusercontent.com/65409089/121769276-d8515180-cb8c-11eb-8764-5ee33a734316.jpeg)
 
 3. #### User Profile 
     Menampilkan informasi singkat pengguna. Informasi yang ditampilkan adalah username, bio singkat, tanggal pengguna membuat akun dan infomasi forum atau post yang pernah           dibuat.
@@ -152,6 +156,8 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 
 5. #### Forum/thread
     Pada fitur ini pengguna dapat membuat forum berisi pertanyaan seputar perawatan tanaman hias, pengguna lain dapat membuat post untuk menjawab pertanyaan tersebut. Pengguna       juga dapat memberi informasi terkait perawatan tanaman hias berdasarkan pengalaman pribadi.
+    ![buat post](https://user-images.githubusercontent.com/65409089/121769241-af30c100-cb8c-11eb-8c33-555c2c5bd47c.jpeg)
+    ![forum 3](https://user-images.githubusercontent.com/65409089/121769248-b5bf3880-cb8c-11eb-9a3f-9fab3e3cb23b.jpeg)
 
 # Fungsi CRUD 
 <table>
