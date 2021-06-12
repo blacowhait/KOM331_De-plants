@@ -216,8 +216,14 @@ Meningkatnya animo masyarakat untuk mengoleksi tanaman hias selama covid-19 tida
    Fungsi delete digunakan untuk  menghapus baris atau row tertentu dalam klausa where. Pada website ini, pengguna dapat menghapus postingan di forum dan marketplace dan dapat      menghapus akun. 
    
 ## Hasil Implementasi
+login dan sign up 
    ![login](https://user-images.githubusercontent.com/65409089/121769173-552ffb80-cb8c-11eb-9c83-30644cd9d231.jpeg)
    ![sign up](https://user-images.githubusercontent.com/65409089/121769214-8b6d7b00-cb8c-11eb-957e-9928d41f7f78.jpeg)
+homepage 
+### user profile
+![Forum](https://user-images.githubusercontent.com/65409089/121769363-6fb6a480-cb8d-11eb-8c70-35c03d143c44.jpeg)
+marketplace/transaction
+forum/theards
 
 ## Project Dokumentation 
 - Task management in [trello/de-plant](https://trello.com/b/G4FFZCay/project-rpl)
