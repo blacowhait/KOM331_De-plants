@@ -156,6 +156,7 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 
 5. #### Forum/thread
     Pada fitur ini pengguna dapat membuat forum berisi pertanyaan seputar perawatan tanaman hias, pengguna lain dapat membuat post untuk menjawab pertanyaan tersebut. Pengguna       juga dapat memberi informasi terkait perawatan tanaman hias berdasarkan pengalaman pribadi.
+    
     ![buat post](https://user-images.githubusercontent.com/65409089/121769241-af30c100-cb8c-11eb-8c33-555c2c5bd47c.jpeg)
     ![forum 3](https://user-images.githubusercontent.com/65409089/121769248-b5bf3880-cb8c-11eb-9a3f-9fab3e3cb23b.jpeg)
 
