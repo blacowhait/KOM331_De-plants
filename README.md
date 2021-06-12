@@ -204,23 +204,16 @@ tertipu saat membeli tanaman hias secara online karena minimnya informasi yang d
 </table>
 
 ## Detail CRUD website de-plants
-
-
-# Hasil Implementasi 
 1. #### Create
-Fungsi create digunakan untuk menambahkan kalimat untuk membuat sebuah catatan baru. Website de-plants menyediakan fitur forum yang dapat digunakan pengguna untuk membuat postingan, membalas postingan pengguna lain serta membuat theard (postingan panjang). Pengguna yang ingin berjualan juga dapat menambahkan produknya pada fitur marketplace.    
-           
-2. Read 
-	fungsi read digunakan untuk membaca record atau catatan tabel berdasarkan catatan utama(primary) dalam parameter input. 
-Pada website ini pengguna dapat membaca postingan di fitur forum dan marketplace. Dapat melihat profil pengguna lain dan melihat produk (tanaman hias) apa saja yang dijual oleh pengguna tersebut.
+   Fungsi create digunakan untuk menambahkan kalimat untuk membuat sebuah catatan baru. Website de-plants menyediakan fitur forum yang dapat digunakan pengguna untuk membuat        postingan, membalas postingan pengguna lain serta membuat theard (postingan panjang). Pengguna yang ingin berjualan juga dapat menambahkan produknya pada fitur marketplace.       
+2. #### Read 
+   Fungsi read digunakan untuk membaca record atau catatan tabel berdasarkan catatan utama(primary) dalam parameter input. Pada website ini pengguna dapat membaca postingan di      fitur forum dan marketplace. Dapat melihat profil pengguna lain dan melihat produk (tanaman hias) apa saja yang dijual oleh pengguna tersebut.
 
-3. Update 
-	fungsi update digunakan untuk memperbaharui tabel berdasar primary key yang ditentukan untuk sebuah record dengan menggunakan klausa where.
-wwebsite de-plant menyediakan fitur user profile untuk memperbarui profile user agar profile dapat terlihat menarik. 
+3. #### Update 
+   Fungsi update digunakan untuk memperbaharui tabel berdasar primary key yang ditentukan untuk sebuah record dengan menggunakan klausa where. Website de-plants menyediakan        fitur user profile untuk memperbarui profile user agar profile dapat terlihat menarik. 
 
-4. Delete 
-	fungsi delete digunakan untuk  menghapus baris atau row tertentu dalam klausa where.
-pada website ini, pengguna dapat menghapus postingan di forum dan marketplace. dan dapat menghapus akun. 
+4. #### Delete 
+   Fungsi delete digunakan untuk  menghapus baris atau row tertentu dalam klausa where. Pada website ini, pengguna dapat menghapus postingan di forum dan marketplace dan dapat      menghapus akun. 
 
 # Project Dokumentation 
 - Task management in [trello/de-plant](https://trello.com/b/G4FFZCay/project-rpl)
