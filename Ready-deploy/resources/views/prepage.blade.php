@@ -115,6 +115,8 @@
               <form action="{{route('register')}}" method="POST">
               @csrf
               <input type="hidden" name="_token" value="{{ csrf_token() }}">
+              <input type="hidden" name="tag" value="NEW!!">
+              <input type="hidden" name="desc" value="Hi! Im new to De-plant!">
               <div class="nama-sign-up">
                 <label class="emaill">Name</label><br>
                     <input type="text" name="name" class="textboxlocmodal1"><br>

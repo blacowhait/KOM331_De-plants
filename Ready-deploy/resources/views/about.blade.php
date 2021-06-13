@@ -115,9 +115,12 @@
               <img src="{{asset('Picture/logo2.png')}}">
             </div>
             <div class="modalmain">
-              <form action="{{route('register')}}" method="POST">
+              <form action="{{route('register')}}" method="POST" enctype="multipart/form-data">
               @csrf
               <input type="hidden" name="_token" value="{{ csrf_token() }}">
+              <input type="hidden" name="tag" value="NEW!!">
+              <input type="hidden" name="desc" value="Hi! Im new to De-plant!">
+              <input type="hidden" name="foto" value="{{asset('Images/user/default.png')}}">
               <div class="nama-sign-up">
                 <label class="emaill">Name</label><br>
                     <input type="text" name="name" class="textboxlocmodal1"><br>

@@ -9,7 +9,14 @@ use Illuminate\Support\Facades\DB;
 class users extends Model
 {
 	
-	//protected $table = "users";
+	protected $fillable = [
+	    'name',
+	    'email',
+	    'password',
+	    'tag',
+	    'desc',
+	];
+	
 	public function alldata()
 	{
 		return DB::table('users')->get();

@@ -1,3 +1,37 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: lightgreen;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darkgreen;
+}
+
 .mainbody {
 
 background: linear-gradient(0deg, #FFFFFF 21.88%, #BDFFD9 123.39%);
@@ -101,6 +135,26 @@ margin-left: 95px;
 
 }
 
+.marginright {
+
+margin-right: 95px;
+
+}
+
+.margintop {
+
+margin-top: 16px;
+margin-left: 36px;
+
+}
+
+.margin-comment {
+
+margin-top: 60px;
+margin-left: 86px;
+
+}
+
 .navbar {
 
 padding-left: 111px;
@@ -110,7 +164,7 @@ top: -5px;
 border-bottom: 8px solid black;
 background-color: #BDFFD9;
 position: sticky;
-z-index: 1;
+z-index: 2;
 
 }
 
@@ -118,7 +172,7 @@ z-index: 1;
 
 margin-left: 150px;
 margin-top: 50px;
-height: 1080px;
+height: 1680px;
 
 }
 
@@ -191,6 +245,18 @@ background: #27AE60;
 
 }
 
+.md-profile-pic {
+
+position: relative;
+margin: 40px;
+height: 220px;
+width: 220px;
+border-radius: 260px;
+background: #27AE60;
+float: left;
+
+}
+
 .lg-profile-pic {
 
 position: relative;
@@ -212,6 +278,18 @@ text-align: center;
 position: relative;
 left: 3px;
 top: 3px;
+
+}
+
+.iconmed {
+
+width: 200px;
+height: 200px;
+border-radius: 63%;
+text-align: center;
+position: relative;
+left: 10px;
+top: 9px;
 
 }
 
@@ -300,6 +378,24 @@ padding-bottom: 10px;
 
 }
 
+.underline-soft {
+
+width: 920px;
+border-bottom: 2px solid black;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+.underline-profile {
+
+width: 260px;
+border-bottom: 4px solid black;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
 .fitdiv {
 
 width: 750px;
@@ -307,9 +403,22 @@ margin-top: 15px;
 
 }
 
+.fitdiv-forum {
+
+width: 920px;
+margin-top: 15px;
+
+}
+
 .font30 {
 
 font-size: 30px;
+
+}
+
+.font24 {
+
+font-size: 24px;
 
 }
 
@@ -325,10 +434,16 @@ font-size: 12px;
 
 }
 
+.white {
+
+color: white;
+
+}
+
 .marketplace {
 
 position: relative;
-height: 30%;
+height: 25%;
 width: 100%;
 
 }
@@ -356,18 +471,32 @@ cursor: pointer;
 
 }
 
-button span {
-  max-width: 0;
-  -webkit-transition: max-width 1s;
-  transition: max-width 1s;
-  display: inline-block;
-  vertical-align: top;
-  white-space: nowrap;
-  overflow: hidden;
+.button-main {
+
+width: 155px;
+height: 54px;
+color: #fff;
+
+background: #27AE60;
+border-radius: 26px;
+border: none;
+cursor: pointer;
+
 }
 
-button:hover span {
-  max-width: 100px;
+.button-main:hover {
+
+transition-duration: 0.4s;
+background-color: #309620;
+color: white;
+
+}
+
+.button-main:active {
+
+transition-duration: 0.1s;
+box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
+
 }
 
 .forum-box {
@@ -388,7 +517,7 @@ margin-bottom: 30px;
 border: 2px solid #555;
 background-color: #fff;
 border-radius: 10px;
-width: 590px;
+width: 450px;
 height: 39px;
 padding-left: 20px;
 padding-top: 7px;
@@ -407,6 +536,12 @@ padding-left: 20px;
 padding-top: 7px;
 margin-top: 10px;
 margin-bottom: 50px;
+
+}
+
+.width1130 {
+
+width: 1130px;
 
 }
 
@@ -458,28 +593,6 @@ height: 400px;
 overflow: auto;
 padding: 12px;
 
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 10px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: lightgreen;
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: darkgreen;
 }
 
 .product-list {
@@ -548,7 +661,7 @@ background-color: #f1f1f1;
 min-width: 160px;
 overflow: auto;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
+z-index: 2;
 
 }
 
@@ -585,4 +698,388 @@ a:active {
 color: #000000;
 text-decoration: none;
 
+}
+
+.forum-box-create {
+
+border: 2px solid #555;
+background-color: #fff;
+border-radius: 10px;
+width: 1180px;
+height: 80px;
+
+resize: none;
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin-bottom: 30px;
+outline: none;
+font-size: 20px;
+
+}
+
+.float-left {
+
+float: left;
+
+}
+
+.float-right {
+
+float: right;
+
+}
+
+.Question {
+
+height: 310px;
+
+}
+
+.description {
+
+width: 700px;
+height: 224px;
+
+}
+
+.forum-box-create:focus {
+
+border: 3px solid #555;
+
+}
+
+.product-name {
+
+width: 400px;
+
+}
+
+.product-price {
+
+padding-bottom: 10px; 
+height: 50px;
+width: 300px;
+
+}
+
+.inline {
+
+display: inline-block;
+
+}
+
+.score {
+
+position: relative;
+margin: 40px;
+height: 134px;
+width: 41px;
+background: transparent;
+float: left;
+
+}
+
+.forum-date {
+
+float: right;
+position: relative;
+top: 77px;
+font-size: 20px;
+font-weight: 10px;
+
+}
+
+.upvote {
+
+width: 0;
+height: 0;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+border-bottom: 40px solid #73B664;
+background: transparent;
+
+}
+
+.score-number {
+
+margin-top: 10px;
+margin-left: 1px;
+
+}
+
+.downvote {
+
+position: absolute;
+bottom: 0;
+width: 0;
+height: 0;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+border-top: 40px solid #73B664;
+background: transparent;
+
+}
+
+.replies {
+
+width: 1200px;
+height: fit-content;
+
+}
+
+.vertical-line {
+
+height: 1200px;
+float: left;
+border-right: 3px solid black;
+margin-left: 92px;
+
+}
+
+.horizontal-line {
+
+height: 125px;
+width: 88px;
+float: left;
+border-bottom: 3px solid black;
+
+}
+
+.replies-box {
+
+border: 2px solid #555;
+background-color: #fff;
+border-radius: 10px;
+width: 910px;
+height: 190px;
+padding-left: 30px;
+padding-right: 15px;
+padding-top: 20px;
+padding-bottom: 10px;
+margin-top: 20px;
+margin-left: 10px;
+float: left;
+
+}
+
+.replies-date {
+
+float: right;
+position: relative;
+bottom: 0;
+
+}
+
+.user-product {
+
+overflow: auto;
+position: relative;
+width: 1130px;
+padding: 30px;
+border: 4px solid #27AE60;
+border-radius: 30px;
+
+}
+
+.platformbubble {
+
+position: relative;
+border-radius: 10px;
+width: 100px;
+height: 22px;
+margin: 5px;
+float: left;
+background-color: #50CE74;
+z-index: 1;
+cursor: pointer;
+margin-right: 45px;
+
+}
+
+.payment-method {
+
+display: inline-block;
+margin-left: 20px;
+
+}
+
+.method {
+
+width: 600px;
+height: 118px;
+
+}
+
+.img-submit {
+
+margin-right: 32px;
+margin-top: 5px;
+
+}
+
+.input-sm {
+
+height: 0px;
+width: 460px;
+padding: 10px;
+margin-left: 10px;
+
+outline: none;
+border: 2px solid #555;
+
+}
+
+.input-sm:focus {
+
+border: 4px solid #555;
+
+}
+
+.margin-shopee {
+
+margin-left: 34px;
+
+}
+
+.profile-edit {
+
+margin-left: unset;
+height: 15px;
+border-radius: 20px;
+
+}
+
+.marginright-editprofile {
+
+margin-right: 50px;
+
+}
+
+.block {
+
+display: block;
+
+}
+
+.describe {
+
+margin-left: 30px;
+
+}
+
+.description-profile {
+
+width: 1250px;
+height: 110px;
+
+}
+
+.margineditprof {
+
+margin-left: 50px;
+
+}
+
+.marginleft-button {
+
+margin-left: 550px;
+
+}
+
+.margin-left {
+
+margin-left:  30px;
+
+}
+
+.comment {
+
+width: 912px;
+height: 190px;
+margin-left: 14px;
+
+}
+
+
+.tag-profile {
+
+margin-top: 32px;
+display: inline-block;
+width: 130px;
+position: relative;
+font-family: Arial;
+background-color: #27AE60;
+color: #ffffff;
+padding: 8px 16px;
+border: 2px solid black;
+
+}
+
+.tag {
+
+margin-top: 32px;
+display: inline-block;
+width: 150px;
+
+}
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: #27AE60;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #27AE60;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
 }

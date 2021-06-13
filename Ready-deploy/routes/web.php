@@ -31,6 +31,17 @@ Route::get('/flow', [App\Http\Controllers\PrepageController::class, 'flow'])->na
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/home/edituser', [App\Http\Controllers\UserEditController::class, 'edit']);
+Route::get('/profile', [App\Http\Controllers\HomeController::class, 'profile'])->name('profile');
+Route::get('/edituser', [App\Http\Controllers\UserEditController::class, 'edit']);
 Route::post('/home', [App\Http\Controllers\UserEditController::class, 'store']);
-Route::post('/home/edituser/{id}', [App\Http\Controllers\UserEditController::class, 'update']);
+Route::post('/edituser/{id}', [App\Http\Controllers\UserEditController::class, 'update']);
+
+Route::get('/forum', [App\Http\Controllers\forumController::class, 'show'])->name('forum');
+Route::get('/forum/add', [App\Http\Controllers\forumController::class, 'create']);
+Route::post('/forum/add', [App\Http\Controllers\forumController::class, 'create']);
+Route::get('/forum/{id}', [App\Http\Controllers\forumController::class, 'details']);
+
+Route::get('/market', [App\Http\Controllers\marketController::class, 'show'])->name('market');
+Route::get('/market/add', [App\Http\Controllers\marketController::class, 'create']);
+Route::post('/market/add', [App\Http\Controllers\marketController::class, 'create']);
+Route::get('/market/{id}', [App\Http\Controllers\marketController::class, 'details']);
