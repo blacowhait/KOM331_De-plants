@@ -148,10 +148,24 @@ margin-left: 36px;
 
 }
 
+.margin-top {
+
+margin-top: 60px;
+
+}
+
 .margin-comment {
 
 margin-top: 60px;
-margin-left: 86px;
+margin-left: 0px;
+
+}
+
+.margin-delete-button {
+
+margin-right: 30px;
+position: relative;
+top: -15px;
 
 }
 
@@ -172,7 +186,8 @@ z-index: 2;
 
 margin-left: 150px;
 margin-top: 50px;
-height: 1680px;
+height: fit-content;
+margin-bottom: 40px;
 
 }
 
@@ -281,6 +296,16 @@ top: 3px;
 
 }
 
+.forum-img {
+
+width: 340px;
+text-align: center;
+position: relative;
+left: 10px;
+margin-top: 20px;
+
+}
+
 .iconmed {
 
 width: 200px;
@@ -310,6 +335,7 @@ top: 9px;
 position: relative;
 float: left;
 margin-right: 70px;
+margin-bottom: 40px;
 
 }
 
@@ -359,6 +385,7 @@ position: relative;
 width: fit-content;
 height: fit-content;
 margin-bottom: 30px;
+display: flex;
 
 }
 
@@ -445,12 +472,14 @@ color: white;
 position: relative;
 height: 25%;
 width: 100%;
+display: inline-block;
 
 }
 
 .forums {
 
 position: relative;
+margin-top: 60px;
 
 }
 
@@ -467,6 +496,20 @@ position: relative;
 top: 60px;
 height: 40px;
 border-radius: 26px;
+cursor: pointer;
+
+}
+
+.button-sm {
+
+width: 70px;
+height: 22px;
+color: #fff;
+
+margin-top: 10px;
+background: #27AE60;
+border-radius: 26px;
+border: none;
 cursor: pointer;
 
 }
@@ -531,11 +574,11 @@ border: 2px solid #555;
 background-color: #fff;
 border-radius: 10px;
 width: 1190px;
-height: 370px;
 padding-left: 20px;
 padding-top: 7px;
 margin-top: 10px;
 margin-bottom: 50px;
+overflow: auto;
 
 }
 
@@ -784,7 +827,7 @@ float: left;
 
 float: right;
 position: relative;
-top: 77px;
+margin-top: 60px;
 font-size: 20px;
 font-weight: 10px;
 
@@ -830,7 +873,7 @@ height: fit-content;
 
 .vertical-line {
 
-height: 1200px;
+height: 244px;
 float: left;
 border-right: 3px solid black;
 margin-left: 92px;
@@ -840,6 +883,24 @@ margin-left: 92px;
 .horizontal-line {
 
 height: 125px;
+width: 88px;
+float: left;
+border-bottom: 3px solid black;
+
+}
+
+.vertical-line-add {
+
+height: 208px;
+float: left;
+border-right: 3px solid black;
+margin-left: 92px;
+
+}
+
+.horizontal-line-add {
+
+height: 205px;
 width: 88px;
 float: left;
 border-bottom: 3px solid black;
@@ -990,6 +1051,33 @@ margin-left: 550px;
 .margin-left {
 
 margin-left:  30px;
+
+}
+
+.margin-top-none {
+
+margin-top: 0px;
+
+}
+
+.red {
+
+background-color: red;
+
+}
+
+.red:hover {
+
+transition-duration: 0.4s;
+background-color: darkred;
+color: white;
+
+}
+
+.red:active {
+
+transition-duration: 0.1s;
+box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
 
 }
 

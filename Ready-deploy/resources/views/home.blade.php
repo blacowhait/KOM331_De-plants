@@ -20,7 +20,7 @@
       <a href="/home"><img class="logoimg" src="{{asset('Picture/logo2.png')}}"></a>
       <label class="maintext marginleft">Home</label>
       <label class="maintext marginleft"><a href="/forum">Forum</a></label>
-      <label class="maintext marginleft"><a href="/marketplace">Marketplace</a></label>
+      <label class="maintext marginleft"><a href="/market">Marketplace</a></label>
       <div class="navsearch-logo">
         <input type="text" class="searchbox" placeholder="Search">
         <a href="/profile">
@@ -34,120 +34,49 @@
       
     </div>
 
+
     <div class="maincontent">
 
       <div class="marketplace">
 
-        <label class="maintext"><a href="Marketplace.html"><strong>Marketplace</strong></a></label>
+        <label class="maintext"><a href="/market"><strong>Marketplace</strong></a></label>
         <br><br><br>
-
+        @foreach($products as $product)
         <!-- load database marketplace -->
         <div class="container-product-sm">
           <!-- load picture -->
-          <img src="{{asset('Picture/samplemarketplace.png')}}" class="product-sm"><br><br>
+          <img src="{{asset('storage/'. $product->foto)}}" class="product-sm"><br><br>
           <!-- load product name -->
           <div class="maintext centered">
-            Sekiro :)
+            {{$product->nama}}
           </div>
         </div>
+        @endforeach
 
-        <div class="container-product-sm">
-          <!-- load picture -->
-          <img src="{{asset('Picture/samplemarketplace.png')}}" class="product-sm"><br><br>
-          <!-- load product name -->
-          <div class="maintext centered">
-            Sekiro :)
-          </div>
-        </div>
-
-        <div class="container-product-sm">
-          <!-- load picture -->
-          <img src="{{asset('Picture/samplemarketplace.png')}}" class="product-sm"><br><br>
-          <!-- load product name -->
-          <div class="maintext centered">
-            Sekiro :)
-          </div>
-        </div>
-
-        <div class="container-product-sm">
-          <!-- load picture -->
-          <img src="{{asset('Picture/samplemarketplace.png')}}" class="product-sm"><br><br>
-          <!-- load product name -->
-          <div class="maintext centered">
-            Sekiro :)
-          </div>
-        </div>
-
-        <div class="container-product-sm">
-          <!-- load picture -->
-          <img src="{{asset('Picture/samplemarketplace.png')}}" class="product-sm"><br><br>
-          <!-- load product name -->
-          <div class="maintext centered">
-            Sekiro :)
-          </div>
-        </div>
-
-        <a href="/marketplace">
+        <a href="/market">
           <button class="btn-exp">
             <span class="maintext font16">View More >> </span>
           </button>
         </a>
       </div>
 
-      <div class="forums">
-        <label class="maintext"><a href="/forum"><strong>Forums</strong></a></label>
+      <div class="forums inline">
+        <span class="maintext"><a href="/forum"><strong>Forums</strong></a></span>
         <br><br><br>
 
         <div class="overfloww">
+          @foreach ($posts as $post)
           <div class="forum-box">
-            <label class="maintext"><strong>Judul thread</strong></label>
+            <label class="maintext"><strong>{{$post->topic}}</strong></label>
             <br>
-            <label class="maintext">Deskripsi singkat</label>
+            <label class="maintext">{{$post->title}}</label>
           </div>
-
-          <div class="forum-box">
-            <label class="maintext"><strong>Judul thread</strong></label>
-            <br>
-            <label class="maintext">Deskripsi singkat</label>
-          </div>
-
-          <div class="forum-box">
-            <label class="maintext"><strong>Judul thread</strong></label>
-            <br>
-            <label class="maintext">Deskripsi singkat</label>
-          </div>
-
-          <div class="forum-box">
-            <label class="maintext"><strong>Judul thread</strong></label>
-            <br>
-            <label class="maintext">Deskripsi singkat</label>
-          </div>
+          @endforeach
         </div>
 
       </div>
 
     </div>
-    <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li>
-                  <a class="dropdown-item" href="{{ route('logout') }}"
-                      onclick="event.preventDefault();
-                        document.getElementById('logout-form').submit();">
-                        {{ __('Logout') }}
-                  </a>
-                      <form id="logout-form" action="{{ route('logout') }}" 
-                      method="POST" class="d-none">
-                                  @csrf
-                      <button type="submit" class="btn btn-default btn-flat" >Log out</button>
-                     </form>
-              </li>
-              <li>
-                <a href="/home/edituser">Edit Profile</a>
-              </li>
-              
-            </ol>
-
-          </div>
 
 
   </body>

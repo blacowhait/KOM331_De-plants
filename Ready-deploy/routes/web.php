@@ -38,10 +38,15 @@ Route::post('/edituser/{id}', [App\Http\Controllers\UserEditController::class, '
 
 Route::get('/forum', [App\Http\Controllers\forumController::class, 'show'])->name('forum');
 Route::get('/forum/add', [App\Http\Controllers\forumController::class, 'create']);
-Route::post('/forum/add', [App\Http\Controllers\forumController::class, 'create']);
-Route::get('/forum/{id}', [App\Http\Controllers\forumController::class, 'details']);
+Route::post('/forum/add', [App\Http\Controllers\forumController::class, 'store']);
+Route::get('/forum/{id}', [App\Http\Controllers\forumController::class, 'detail'])->name('forum.detail');
+Route::post('/forum/{id}/addComment', [App\Http\Controllers\commentController::class, 'store'])->name('addComment');
+Route::get('/forum/{id}/incVote', [App\Http\Controllers\forumController::class, 'inc'])->name('inc');
+Route::get('/forum/{id}/decVote', [App\Http\Controllers\forumController::class, 'dec'])->name('dec');
 
-Route::get('/market', [App\Http\Controllers\marketController::class, 'show'])->name('market');
-Route::get('/market/add', [App\Http\Controllers\marketController::class, 'create']);
-Route::post('/market/add', [App\Http\Controllers\marketController::class, 'create']);
-Route::get('/market/{id}', [App\Http\Controllers\marketController::class, 'details']);
+
+Route::get('/market', [App\Http\Controllers\MarketController::class, 'show'])->name('market');
+Route::get('/market/add', [App\Http\Controllers\MarketController::class, 'create']);
+Route::post('/market/add', [App\Http\Controllers\MarketController::class, 'store']);
+Route::get('/market/{id}', [App\Http\Controllers\MarketController::class, 'detail'])->name('market.detail');
+Route::post('/market/{id}/addComment', [App\Http\Controllers\MCommentController::class, 'store'])->name('addMComment');

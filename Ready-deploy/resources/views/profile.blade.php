@@ -63,72 +63,50 @@
 
       </div>
 
-      <div class="maintext font30 underline-profile"><strong>Sekiro's Product</strong></div><br><br>
+      <div class="maintext font30 underline-profile"><strong>{{$user->name}}'s Product</strong></div><br><br>
 
       <div class="user-product border">
 
         <!-- load database marketplace -->
+        @foreach($products as $product)
         <div class="container-product-sm">
           <!-- load picture -->
-          <img src="{{asset('Picture/samplemarketplace.png')}}" class="product-sm"><br><br>
+          <img src="{{asset('storage/'. $product->foto)}}" class="product-sm"><br><br>
           <!-- load product name -->
           <div class="maintext centered">
-            Sekiro :)
+            {{$product->nama}}
           </div>
-        </div>
+          <!-- DELETE BUTTON -->
+          <div class="centered">
+            <button class="button-sm red">Delete</button>
+          </div>
 
-        <div class="container-product-sm">
-          <!-- load picture -->
-          <img src="{{asset('Picture/samplemarketplace.png')}}" class="product-sm"><br><br>
-          <!-- load product name -->
-          <div class="maintext centered">
-            Sekiro :)
-          </div>
         </div>
-
-        <div class="container-product-sm">
-          <!-- load picture -->
-          <img src="{{asset('Picture/samplemarketplace.png')}}" class="product-sm"><br><br>
-          <!-- load product name -->
-          <div class="maintext centered">
-            Sekiro :)
-          </div>
-        </div>
+        @endforeach
 
       </div><br><br>
 
-      <div class="maintext font30 underline-profile"><strong>Sekiro's Thread</strong></div><br><br>
+      <div class="maintext font30 underline-profile"><strong>{{$user->name}}'s Thread</strong></div><br><br>
 
       <div class="overfloww">
-
+          @foreach ($posts as $post)
           <div class="forum-box">
-            <label class="maintext"><strong>Judul thread</strong></label>
+            <label class="maintext"><strong>{{$post->topic}}</strong></label>
             <br>
-            <label class="maintext">Deskripsi singkat</label>
+            <label class="maintext">{{$post->title}}</label>
+            <!-- DELETE BUTTON -->
+            <div class="float-right margin-delete-button">
+              <button class="button-sm red">Delete</button>
+            </div>
           </div>
+          @endforeach
+      </div>
 
-          <div class="forum-box">
-            <label class="maintext"><strong>Judul thread</strong></label>
-            <br>
-            <label class="maintext">Deskripsi singkat</label>
-          </div>
-
-          <div class="forum-box">
-            <label class="maintext"><strong>Judul thread</strong></label>
-            <br>
-            <label class="maintext">Deskripsi singkat</label>
-          </div>
-
-          <div class="forum-box">
-            <label class="maintext"><strong>Judul thread</strong></label>
-            <br>
-            <label class="maintext">Deskripsi singkat</label>
-          </div>
-        </div>
+      <button class="button-main margin-top red font24 marginleft-button block">Log Out</button>
 
     </div>
 
-    <script src="{{asset('JS/webpage.js')}}"></script>
+    <script src="../../JS/webpage.js"></script>
 
   </body>
 </html>

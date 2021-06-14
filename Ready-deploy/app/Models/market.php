@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class forums extends Model
+class market extends Model
 {
     use HasFactory;
     
-    protected $fillable = ['topic', 'slug', 'title', 'deskripsi', 'vote', 'foto' ,'user_id'];
+    protected $fillable = ['nama', 'price', 'desc', 'tp', 'sp', 'foto' ,'bp','user_id'];
     
     public function user()
     {
@@ -18,6 +18,6 @@ class forums extends Model
     
     public function comments()
     {
-        return $this->morphMany(comment::class, 'commentable')->whereNull('parent_id');
+        return $this->morphMany(mComment::class, 'commentable')->whereNull('parent_id');
     }
 }
