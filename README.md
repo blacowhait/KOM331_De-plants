@@ -180,7 +180,7 @@ Meningkatnya animo masyarakat untuk mengoleksi tanaman hias selama covid-19 tida
         <tr>
             <td>1</td>
             <td>Create</td>
-            <td>Membuat postingan</td>
+            <td>Membuat akun, postingan, comment</td>
             <td>Forum</td>
         </tr>
         <tr>
