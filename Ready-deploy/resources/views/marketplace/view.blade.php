@@ -21,8 +21,20 @@
       <label class="maintext marginleft"><a href="/home">Home</a></label>
       <label class="maintext marginleft"><a href="/forum">Forum</a></label>
       <label class="maintext marginleft"><a href="/market">Marketplace</a></label>
-      <div class="navsearch-logo">
-        <input type="text" class="searchbox" placeholder="Search">
+      <form class="inline-form" action="{{route('msearch')}}" method="get">
+          <div class="custom-select filter-select">
+              <select name="filter">
+               <option value=>Filter</option>
+               <option value="popular">Popular</option>
+               <option value="expensive">Expensive</option>
+               <option value="cheapest">Cheapest</option>
+              </select>
+            </div>
+          <div class="navsearch-logo">
+            <form action="{{route('msearch')}}" method="get">
+             <input name="query" type="text" class="searchbox" placeholder="Search">
+             <button type="submit" class="search-button"></button>
+        </form>
         <a href="/profile">
           <div class="sm-profile-pic">
             <!-- load database profile icon -->
@@ -40,17 +52,22 @@
 
         <label class="maintext textdarkgreen"><a href="/market/add">[ + ] Add Product</a></label>
         <br>
-
+        <!--
         <div class="dropdown">
           <label class="maintext">Filter By: </label>
           <button onclick="myFunction()" class="dropbtn maintext">All Type</button>
           <div id="myDropdown" class="dropdown-content">
-            <a href="#home" class="maintext">Type 1</a>
-            <a href="#about" class="maintext">Type 2</a>
-            <a href="#contact" class="maintext">Type 3</a>
+            <a href="{{route('mfilter', 'popular')}}" class="maintext">Popular</a>
+            <a href="{{route('mfilter', 'expensive')}}" class="maintext">Expensive</a>
+            <a href="{{route('mfilter', 'cheapest')}}" class="maintext">Cheapest</a>
           </div>
         </div>
         
+        <div class="dropdown">
+          <label class="maintext">Filter By: </label>
+          <span class="dropbtn maintext">[?]</span>
+        </div><br>
+        -->
             <br>
             <div class="product-list">
               <!-- load database marketplace -->
@@ -72,6 +89,6 @@
 
     </div>
 
-
+    <script src={{asset('JS/webpage.js')}}></script>
   </body>
 </html>

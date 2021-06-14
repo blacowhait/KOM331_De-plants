@@ -21,7 +21,7 @@
       <a href="/home"><img class="logoimg" src="{{asset('Picture/logo2.png')}}"></a>
       <label class="maintext marginleft"><a href="/home">Home</a></label>
       <label class="maintext marginleft"><a href="/forum">Forum</a></label>
-      <label class="maintext marginleft"><a href="/marketplace">Marketplace</a></label>
+      <label class="maintext marginleft"><a href="/market">Marketplace</a></label>
       <div class="navsearch-logo">
         <input type="text" class="searchbox" placeholder="Search">
         <div class="sm-profile-pic">
@@ -69,7 +69,7 @@
 
         <!-- load database marketplace -->
         @foreach($products as $product)
-        <div class="container-product-sm">
+        <div class="container-product-sm centered">
           <!-- load picture -->
           <img src="{{asset('storage/'. $product->foto)}}" class="product-sm"><br><br>
           <!-- load product name -->
@@ -78,7 +78,10 @@
           </div>
           <!-- DELETE BUTTON -->
           <div class="centered">
-            <button class="button-sm red">Delete</button>
+            <form action="{{route('deletem', $product->id)}}">
+                @csrf
+                <button class="button-sm red">Delete</button>
+            </form>
           </div>
 
         </div>
@@ -96,13 +99,17 @@
             <label class="maintext">{{$post->title}}</label>
             <!-- DELETE BUTTON -->
             <div class="float-right margin-delete-button">
+             <form action="{{route('deletep', $post->id)}}">
               <button class="button-sm red">Delete</button>
+             </form>
             </div>
           </div>
           @endforeach
       </div>
-
-      <button class="button-main margin-top red font24 marginleft-button block">Log Out</button>
+      <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+        @csrf
+        <button type="submit" class="button-main margin-top red font24 marginleft-button block">Log Out</button>
+      </form>
 
     </div>
 

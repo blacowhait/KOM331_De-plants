@@ -9,7 +9,7 @@ class market extends Model
 {
     use HasFactory;
     
-    protected $fillable = ['nama', 'price', 'desc', 'tp', 'sp', 'foto' ,'bp','user_id'];
+    protected $fillable = ['nama', 'slug', 'price', 'desc', 'tp', 'sp', 'foto' ,'bp','user_id'.'clicked'];
     
     public function user()
     {

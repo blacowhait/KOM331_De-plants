@@ -31,12 +31,17 @@ Route::get('/flow', [App\Http\Controllers\PrepageController::class, 'flow'])->na
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home/search/', [App\Http\Controllers\HomeController::class, 'search'])->name('search');
 Route::get('/profile', [App\Http\Controllers\HomeController::class, 'profile'])->name('profile');
+Route::get('/deletep/{id}', [App\Http\Controllers\HomeController::class, 'deletePost'])->name('deletep');
+Route::get('/deletem/{id}', [App\Http\Controllers\HomeController::class, 'deleteProduct'])->name('deletem');
 Route::get('/edituser', [App\Http\Controllers\UserEditController::class, 'edit']);
 Route::post('/home', [App\Http\Controllers\UserEditController::class, 'store']);
 Route::post('/edituser/{id}', [App\Http\Controllers\UserEditController::class, 'update']);
 
 Route::get('/forum', [App\Http\Controllers\forumController::class, 'show'])->name('forum');
+Route::get('/forum/search/', [App\Http\Controllers\forumController::class, 'search'])->name('fsearch');
+Route::get('/forum/f/{filter}', [App\Http\Controllers\forumController::class, 'filter'])->name('ffilter');
 Route::get('/forum/add', [App\Http\Controllers\forumController::class, 'create']);
 Route::post('/forum/add', [App\Http\Controllers\forumController::class, 'store']);
 Route::get('/forum/{id}', [App\Http\Controllers\forumController::class, 'detail'])->name('forum.detail');
@@ -46,6 +51,8 @@ Route::get('/forum/{id}/decVote', [App\Http\Controllers\forumController::class, 
 
 
 Route::get('/market', [App\Http\Controllers\MarketController::class, 'show'])->name('market');
+Route::get('/market/search/', [App\Http\Controllers\MarketController::class, 'search'])->name('msearch');
+Route::get('/market/f/{filter}', [App\Http\Controllers\MarketController::class, 'filter'])->name('mfilter');
 Route::get('/market/add', [App\Http\Controllers\MarketController::class, 'create']);
 Route::post('/market/add', [App\Http\Controllers\MarketController::class, 'store']);
 Route::get('/market/{id}', [App\Http\Controllers\MarketController::class, 'detail'])->name('market.detail');

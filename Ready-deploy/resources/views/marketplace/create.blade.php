@@ -50,6 +50,7 @@
         @csrf
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <input type="hidden" name="user_id" value="{{ auth()->user()->id }}">
+        <input type="hidden" name="clicked" value=0>
         <div class="float-left marginright">
           <!-- SUBMIT PRODUCT NAME-->
           <span class="maintext">Product Name:</span><br>
@@ -65,7 +66,7 @@
         </div>
         <div class="float-left img-submit">
           <!-- SUBMIT PRODUCT IMAGE-->
-          <span class="maintext">Add Product Image: </span>
+          <span class="maintext">Add Product Image (1:1): </span>
           <input type="file" name="foto" id="foto"><br><br><br>
           <!-- SUBMIT TO DATABASE-->
           <button class="button-main">

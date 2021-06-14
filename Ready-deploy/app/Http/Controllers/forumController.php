@@ -14,7 +14,41 @@ class forumController extends Controller
     {
         return $this->middleware('auth');
     }
-
+    
+    public function filter($tr)
+    {
+        if ($tr === 'trending') {
+            $posts = forums::latest('updated_at');
+        }
+        elseif ($tr === 'newest') {
+            $posts = forums::latest();
+        }
+        else { $posts = forums::oldest(); }
+        
+        return view('forums.view',[
+            'posts' => $posts->paginate(7),
+        ]);
+    }
+    
+    public function search() 
+    {
+        $query = request('query');
+        $tr = request('filter');
+        
+        $postss = forums::where("slug", "like", "%$query%");
+        if ($tr === 'trending') {
+            $posts = $postss->latest('updated_at');
+        }
+        elseif ($tr === 'oldest') {
+            $posts = $postss->oldest();
+        }
+        else { $posts = $postss->latest(); }
+        
+        return view('forums.view',[
+            'posts' => $posts->paginate(5),
+        ]);
+    } 
+    
     public function show()
     {
         $posts = forums::latest();

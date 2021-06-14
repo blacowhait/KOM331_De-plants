@@ -236,6 +236,17 @@ border: 2px solid #ACFEAF;
 
 }
 
+.search-button {
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 13px;
+    left: 273px;
+    width: 24px;
+    height: 25px;
+    border: none;
+}
+
 .searchbox::placeholder {
 
 color: #ffffff;
@@ -348,11 +359,27 @@ border-radius: 26px;
 
 .container-product-md {
 
+width: 262px;
 position: relative;
 float: left;
 margin-right: 193px;
 margin-top: 50px;
 margin-bottom: 25px;
+
+}
+
+.filter-select {
+
+margin-top: 32px;
+display: inline-block;
+width: 110px;
+margin-left: 40px;
+
+}
+
+.inline-form {
+
+display:inline;
 
 }
 

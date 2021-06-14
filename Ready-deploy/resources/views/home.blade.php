@@ -22,7 +22,10 @@
       <label class="maintext marginleft"><a href="/forum">Forum</a></label>
       <label class="maintext marginleft"><a href="/market">Marketplace</a></label>
       <div class="navsearch-logo">
-        <input type="text" class="searchbox" placeholder="Search">
+        <form action="{{route('search')}}" method="get">
+         <input name="query" type="text" class="searchbox" placeholder="Search">
+         <button type="submit" class="search-button"></button>
+        </form>
         <a href="/profile">
           <div class="sm-profile-pic">
             <!-- load database profile icon -->
@@ -43,7 +46,7 @@
         <br><br><br>
         @foreach($products as $product)
         <!-- load database marketplace -->
-        <div class="container-product-sm">
+        <div class="container-product-sm centered">
           <!-- load picture -->
           <img src="{{asset('storage/'. $product->foto)}}" class="product-sm"><br><br>
           <!-- load product name -->
