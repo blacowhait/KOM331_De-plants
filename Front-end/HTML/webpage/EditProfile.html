@@ -36,7 +36,8 @@
 
       <form action="" method="">
 
-        <span class="maintext font30 underline margineditprof"><strong>Edit Profile</strong></span><br><br><br><br>
+        <span class="maintext font30 underline margineditprof"><strong>Edit Profile</strong></span>
+        <br><br><br><br>
         <!-- EDIT PROFILE PICTURE -->
         <div class="md-profile-pic">
           <img src="../../Picture/samplemarketplace.png" class="iconmed"><br><br><br><input type="file" name="img">
@@ -52,7 +53,21 @@
         <!-- EDIT PHONE NUMBER -->
         <span class="maintext inline  marginright-editprofile">Phone Number: <br><input type="number" name="phone" class="input-sm profile-edit"></span>
         <!-- CONFIRM OLD PASSWORD -->
-        <span class="maintext inline">Current Password:<br><input type="password" name="password" class="input-sm profile-edit"></span><br><br><br><b></br><br><br><br>
+        <span class="maintext inline">Current Password:<br><input type="password" name="password" class="input-sm profile-edit"></span><br>
+
+        <div class="custom-select tag">
+            <select>
+              <option value="0">NEW!!</option>
+              <option value="1">Planter</option>
+              <option value="2">Seller</option>
+              <option value="3">Plant-Lover</option>
+              <option value="4">Buyer</option>
+              <option value="5">Forum-Master</option>
+              <option value="6">Plant-Maniac</option>
+              <option value="7">Plant-Master</option>
+              <option value="8">Pro-Planter</option>
+            </select>
+          </div><br><br><br><br>
         <!-- EDIT PROFILE DESCRIPTION -->
         <div class="inline describe">
           <span class="maintext">Describe Yourself:</span><br>
@@ -66,6 +81,6 @@
 
     </div>
 
-
+    <script src="../../JS/webpage.js"></script>
   </body>
 </html>
