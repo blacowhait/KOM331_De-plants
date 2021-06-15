@@ -131,7 +131,7 @@ Meningkatnya animo masyarakat untuk mengoleksi tanaman hias selama covid-19 tida
 
 ## Hasil dan Pembahasan 
 - ERD adalah model atau rancangan untuk membuat database, untuk memudahkan dalam menggambarkan data yang memiliki hubungan atau relasi dalam bentuk sebuah desain. Berikut adalah ERD untuk website de-plant
-![ERD_RPL_(1)](https://user-images.githubusercontent.com/65409089/121768969-3c731600-cb8b-11eb-95a3-e4692506732d.png)
+![ERD_RPL_(1)]![WhatsApp Image 2021-06-14 at 15 44 22](https://user-images.githubusercontent.com/79556700/121988003-c4436500-cdc3-11eb-8228-61920667d505.jpeg)
 
 - Diagram arsitektur adalah bahasa gambar yang digunakan dalam bidang arsitektur untuk menerangkan konsep, prinsip, anasir, dan komponen, termasuk cara kerja maupun petunjuk penggunaannya. Berikut adalah arsitektur diagram website de-plant 
 ![WhatsApp Image 2021-06-12 at 15 10 37](https://user-images.githubusercontent.com/65409089/121778562-a3abbd00-cbc1-11eb-8f34-d91edb8e2b51.jpeg)
