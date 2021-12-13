@@ -35,7 +35,7 @@ Aplikasi berbasis web yang berfokus pada komunitas pecinta tanaman hias sebagai 
         </tr>
         <tr>
             <td>2</td>
-            <td>Galih Nenudia</td>
+            <td>Galih Nenudiwa</td>
             <td>G64190016</td>
             <td>Back-End Developer</td>
         </tr>
